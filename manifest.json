@@ -1,0 +1,4237 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/kylebaley/Documents/workspace/code/nsb/NServiceBus",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "s99MkmB+XKxMEORix9iLWdg4+7ty8SXgcnyDg8t9bR4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html",
+          "hash": "5aVOF6DdfCjipQ+h2+RmkEJ6PKXpF2lG/2h1Ui1DnPE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "miWxvbdAgf8qSXodB6J8ntMJstDltNNbICTA32tBMa8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AddressMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AddressMode.html",
+          "hash": "aE3CkxdkWiO+tVuCa/VvRClI4s7tbVzDS5wZYygov3w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AssemblyScannerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AssemblyScannerConfiguration.html",
+          "hash": "6hOUD43BM5DgCBNpDdR3MQUNiyN5nrpKX19kjfXikx0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AssemblyScannerConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AssemblyScannerConfigurationExtensions.html",
+          "hash": "D5sGg9NzDSzVSdUgZxZOpiZZrJDBxbyU5WKy1TlgpVA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Audit.AuditAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Audit.AuditAction.html",
+          "hash": "rK/uQ5IX6DAPKwXL/Y5KTf/gJaE0limSWKnHoyiaf8U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Audit.RouteToAudit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Audit.RouteToAudit.html",
+          "hash": "COmGJSZX0pj30YMOtRY4QWiwnvQjr+f1U9HdgVKZFwQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Audit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Audit.html",
+          "hash": "Ui6hNGHpfSyWTRJKq8jKVGaEI6xG3Vg+KR71YQ5AqoQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AuditConfigReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AuditConfigReader.html",
+          "hash": "ShR2sd47rG8d8GyDngxnAbay7nLygljPQxavMdxNylM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AuditContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AuditContextExtensions.html",
+          "hash": "FvPXTyCHwfy72zbxhEvGIrNtYf7ESJrulLrT2jSAG/w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AutoSubscribeSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AutoSubscribeSettingsExtensions.html",
+          "hash": "W1V0hSLq2zMg2aiP6IB7UipzPKvnHsHkPHuVgm296B8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AutomaticSubscriptions.Config.AutoSubscribeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AutomaticSubscriptions.Config.AutoSubscribeSettings.html",
+          "hash": "L6eInVA1H046HBi5/ujklxlF4+Fxz07VHIvjDQGnYtQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.AutomaticSubscriptions.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.AutomaticSubscriptions.Config.html",
+          "hash": "mOQbRNZPHuth3PNxcCyaeiP/04c4rP5/QOVSjEjDIQc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.BestPracticesOptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.BestPracticesOptionExtensions.html",
+          "hash": "IIs2gj3H6lflx7tHKvhJT+FwTj+7vAfj8nSn+fhsdKo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Configuration.AdvancedExtensibility.AdvancedExtensibilityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Configuration.AdvancedExtensibility.AdvancedExtensibilityExtensions.html",
+          "hash": "97lyBpJmRz4BlXEpwphcmooMZrrJMzec2P1RnCQl9rA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Configuration.AdvancedExtensibility.ExposeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Configuration.AdvancedExtensibility.ExposeSettings.html",
+          "hash": "hKQrCFLQVytK2tfL8UVB7p1hP3mrQUB13aNPNmJw7R0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Configuration.AdvancedExtensibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Configuration.AdvancedExtensibility.html",
+          "hash": "my2i6CtI09s7ELtVAHfWTOVWyn3PU8m5SMssO0LwmTs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConfigureAudit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConfigureAudit.html",
+          "hash": "s77N4IwchnyhcMIPFwWB+K8De2dz0DH2KDAGRFmSaVI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConfigureCriticalErrorAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConfigureCriticalErrorAction.html",
+          "hash": "6WU6xdWAOCqwJnC7Ir03Vt7/Uwyo8j9AKtNEePL90Gc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConfigureError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConfigureError.html",
+          "hash": "UrunwzP6BfsF4xF7Vl8NJjRYWGQpQuBUz76KEjop5Qk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConfigureFileShareDataBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConfigureFileShareDataBus.html",
+          "hash": "yLYcnq/L7I851+JQJgUk/LmHfY9uHmKqHXKAPXPDeos="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConfigureLicenseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConfigureLicenseExtensions.html",
+          "hash": "FsHPE5DaKLkw2xWdr9IWCOL6p1FpW62JB7nJw7g7XwI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConfigurePurging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConfigurePurging.html",
+          "hash": "g3v0txKMB99Mzkz5PX0jwXtQmDZ4a3RUitJxiADt7Vc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConnectorContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConnectorContextExtensions.html",
+          "hash": "TUVrWMmVkqZzp30BXi0pE6SP2C8fheZ74PemH1JmteA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConsistencyGuarantees.TransactionModeSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConsistencyGuarantees.TransactionModeSettingsExtensions.html",
+          "hash": "z9Eg1YW2MakBSkp2ZNNaMXOIROdq/Ld+2TuALtUyqKA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConsistencyGuarantees.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConsistencyGuarantees.html",
+          "hash": "uf6SN5/72I7trD41XNVYUYAjUJuWCi3drNyI9cU8Tew="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ContainSagaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ContainSagaData.html",
+          "hash": "wGd4UwmjaaatUQdbjaSyhp3QE9uVt7ASP0Nc3zD2OFI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ContentTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ContentTypes.html",
+          "hash": "nQDQy/yffWB6nhN3N8HWdUO6rcQnlOiW/zcvWdaL7r0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Conventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Conventions.html",
+          "hash": "QtCKQHauiaus930YXtwPSoumEhwnuexNQDj/4ye9VkY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConventionsBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConventionsBuilder.html",
+          "hash": "Je5YLf7iFk3wYD7ZEPtGQreveLC7weyWoHlh9QnUfzY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConversationId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConversationId.html",
+          "hash": "bKyv6Ju3xk160GNL+ua3B974DS2IopebJ2B/1kA/Hz4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConversationIdStrategyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConversationIdStrategyContext.html",
+          "hash": "cUwtGwA5A/rmhWCxl3cuYHVo0yj37brzkRoTXwX5Kfc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ConversationRoutingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ConversationRoutingExtensions.html",
+          "hash": "3WI/k/StMTz0GKv7K3TFSt7BfShnzhS68FN390rxXqU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.CorrelatedSagaPropertyMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.CorrelatedSagaPropertyMapper-1.html",
+          "hash": "lQSWlE79Sww0OAOt+dK+SsVxqVLuTkI1Tyg1YgXhsnc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.CriticalError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.CriticalError.html",
+          "hash": "XMzn3NJYOceTtmep0/oZ3qWxjiKcRjKpRkSC6ct92ZA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.CriticalErrorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.CriticalErrorContext.html",
+          "hash": "71DB4pkjgizOvf1nQ/DV/43rn9fEPh6VJRY3U7T6+i4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBus.DataBusDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBus.DataBusDefinition.html",
+          "hash": "1dGaIouoSA3RsNlqzl6lVNEMuYz/onVUmw5aT3mugMI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBus.DataBusExtensions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBus.DataBusExtensions-1.html",
+          "hash": "L35RvKyEDDDw2O1djQ7KItV0mhsDwB+3VEsBQBcdIw8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBus.DataBusExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBus.DataBusExtensions.html",
+          "hash": "wXMUt1E1RCK/t3INHsXlHSYQ7PnPcarlXPJ6HHEY/0Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBus.IDataBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBus.IDataBus.html",
+          "hash": "8F90IRtcKj/XAUeLuRcdHhclhG0sAy7PvM8JTboda4U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBus.IDataBusSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBus.IDataBusSerializer.html",
+          "hash": "P8no8zS6g+nXbSRxcxvQhz/9i544fjV/AKvjQkCcRNA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBus.html",
+          "hash": "ZZI5Mnb/l/YT4GmqRZpE9gt/YYe/cHa5JK2GHYsdyp8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DataBusProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DataBusProperty-1.html",
+          "hash": "Jdx/vXaAuZhMn1fmyH/mIklQUQaQyK8Q9Ksml1QjTDM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DateTimeOffsetHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DateTimeOffsetHelper.html",
+          "hash": "ddOVIygAVfgN6vJnplID8ftjLhZe0B+8eKNqXTyG4Vw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DefaultRecoverabilityPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DefaultRecoverabilityPolicy.html",
+          "hash": "fL9LvxqHeBh/sS8zY/lr+m7XD54o8Jbi+sq18N7kXX0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedConfig.html",
+          "hash": "X6DSB/WJXC+N3GYxh+gzucrf8JnxyXPgCrCOOTxFGl4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedDelivery.DelayDeliveryWith.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedDelivery.DelayDeliveryWith.html",
+          "hash": "33s9KlKkYVEYcBg2n2+z9vzDyssnpdBtNY0NwuqmnHo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedDelivery.DoNotDeliverBefore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedDelivery.DoNotDeliverBefore.html",
+          "hash": "Bi9uhCDIm2/oEgk1fttbrUiUDX91kVPpIUwQVRZDLr0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedDelivery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedDelivery.html",
+          "hash": "oH0+dqDJW+OUr6FoBW9nV3PpQi2a4PD4hm906ENWlYA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedDeliveryOptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedDeliveryOptionExtensions.html",
+          "hash": "ILL57ups4iboi5pGmVt0uI1VGfCwntHH3BlltMOPsrA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedRetriesSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedRetriesSettings.html",
+          "hash": "36xO+qDDpUGztZbi9cRUoeKtXTHMeFVKUTdYG1ThJJ8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DelayedRetry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DelayedRetry.html",
+          "hash": "GmWMSF3i80MgWOM2W56OAaSQX7PqpaPMiVvtJNqq5lI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DeliveryConstraints.DeliveryConstraintContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DeliveryConstraints.DeliveryConstraintContextExtensions.html",
+          "hash": "X+F1SawxTjJPFmExzbmYrZmonQar0YuuPlhK4h1WKio="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DeliveryConstraints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DeliveryConstraints.html",
+          "hash": "QCU/tBMHoyA/Y54G3wufOhcjRFqMzh0x/TO8Y3gkpPU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DependencyLifecycle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DependencyLifecycle.html",
+          "hash": "/xJ77WD8iTMmB3DPUa1jZRFqnKz2X77DjhA1SPUQyXw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DiagnosticSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DiagnosticSettingsExtensions.html",
+          "hash": "QnGP+OdmNaFW2m+KAWIyLp76vSHYdNAffWUeY1yJn/0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Discard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Discard.html",
+          "hash": "AT5T3nQ6Yy+dGKHrwezI3psQeXDaeCkOoK2jd9eN5Js="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DistributionPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DistributionPolicy.html",
+          "hash": "jlosecaiBu8V5iN0bDaZrTG8oMNaJlx9ZMeUUKMTu+0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.DistributionStrategyScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.DistributionStrategyScope.html",
+          "hash": "SAujpaaEt4Nm6zpDMsrEqyF1hJD3OShN2nf0iHTAYck="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Endpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Endpoint.html",
+          "hash": "2Xc3ZcbQzOtmEdwvKvFTT42TvoVSZi/vzbs73cDmS4A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.EndpointConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.EndpointConfiguration.html",
+          "hash": "OMP7GRNyBYonD/mSCNB/uAINm4EpNBj+d+K53/BJjtI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.EndpointConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.EndpointConfigurationExtensions.html",
+          "hash": "7HLqkOaZPt+8wjrYH4vtsh9flEpHlhWJ6l7W4N3hYCs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.EndpointInstanceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.EndpointInstanceExtensions.html",
+          "hash": "WwMhn+kIO5qxBlREicuXWR/DpVCetayXoKJrhGhg4Jw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.EndpointWithExternallyManagedContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.EndpointWithExternallyManagedContainer.html",
+          "hash": "33BB9MhB+rCmC1GXgei++zk+hZJgZaW4KnKmDy/xZl0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ErrorQueueSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ErrorQueueSettings.html",
+          "hash": "ND3iTH3e3D6nrAovE+ss6t+cI68dpY6oAsZQ6VqQ244="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Extensibility.ContextBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Extensibility.ContextBag.html",
+          "hash": "Zja9PKj3Ar7ipKXCzFrUp9dRzg6lNXvxVcIoF9W/bUU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Extensibility.ExtendableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Extensibility.ExtendableOptions.html",
+          "hash": "ewAWKkSNgE1V0gzXVAgFGESsVurSG3kpYgq9ZtzWTwk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Extensibility.ExtendableOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Extensibility.ExtendableOptionsExtensions.html",
+          "hash": "YPYuQ3TbqD2M9Pk86i+uqVOEk5ayAHx5tsOHEzyVCeY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Extensibility.IExtendable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Extensibility.IExtendable.html",
+          "hash": "48dhhIZ966BzCrhsE6pgOTBLOFI//5CoSRKPmHAvpJc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Extensibility.IReadOnlyContextBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Extensibility.IReadOnlyContextBag.html",
+          "hash": "c8ELBFDcqlSDkrPlwXOdVxfH/112MYQ6tCtRRusCzOE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Extensibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Extensibility.html",
+          "hash": "mUAggsBhReyDyXb9+e3dxTubS5vP3KR2X1X4ZNHJ0qU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.FailedConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.FailedConfig.html",
+          "hash": "miBAbtae7eUA+FwChxRCWZEjYg65znxoDb7hqsNKucA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Faults.DelayedRetryMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Faults.DelayedRetryMessage.html",
+          "hash": "t5cI5dVJ4bcEbCMrtNGoAup2vS+VUqmIjN9kqrPZ+OU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Faults.ErrorsNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Faults.ErrorsNotifications.html",
+          "hash": "A90CBW66XUZk/7zp29nHJ/Zv/8N3JLLAV1qEcL1yvuU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Faults.FailedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Faults.FailedMessage.html",
+          "hash": "VLnilwxkkpztHpr4WF9SVor2AvKRkdQjzaBbdvSlhKs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Faults.FaultsHeaderKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Faults.FaultsHeaderKeys.html",
+          "hash": "qj6jtX+0O+RAuMS0ZfngSHn0bOl2pwDDtoRH0ZH6YDU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Faults.ImmediateRetryMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Faults.ImmediateRetryMessage.html",
+          "hash": "L+pYiGvP+T6YGApsLoFYpKD86WNR+rWDe/NipsP6hvc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Faults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Faults.html",
+          "hash": "pjf+fIG+1uPljIT83LNhy7+UPvQbCpS7ETTky2+Yl20="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.Audit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.Audit.html",
+          "hash": "0mc6T43KCIE4OQIfzAORHZVuruZlF0TTAUba+HYYR4I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.AutoSubscribe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.AutoSubscribe.html",
+          "hash": "nDMmXR7qtnSA+e6vFgWDaKcq+soR+tydRDsFP5vJQoY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.DataBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.DataBus.html",
+          "hash": "VtbJBwk2yVDcUBMVQuEBVRD/9v/pF4EjPQuBUu1XlAo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.Feature.html",
+          "hash": "DnGxD0XQiobYYeA80Zq4gmV6VOEt1aSxEPBH8ZgtUcw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.FeatureConfigurationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.FeatureConfigurationContext.html",
+          "hash": "zjWOnWXFQ9IPkt3X3g6EjVtGOIjcp9wYdELPaXvyK4E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.FeatureStartupTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.FeatureStartupTask.html",
+          "hash": "jcewy0yU+54MSjf8/J2t6Z8QsRXEy+LEbE1nYuuiQqw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.FeatureState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.FeatureState.html",
+          "hash": "BDa6I+YSH5t/NQYHPmwtNb7i7JKvciRIfGnPkB7y64k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.Outbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.Outbox.html",
+          "hash": "NffXiYhAPPRmSTKUAFRimoDvL6C6TVe4O9VoUeopess="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.PlatformRetryNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.PlatformRetryNotifications.html",
+          "hash": "pHC8gruX75S/fN01tEjKP6H+BtpIj/ST7jFmj7ZJLJU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.Sagas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.Sagas.html",
+          "hash": "fWnLMLjVel/SFkozBa7YH6zeDX1SRI6hUHBDWJqe9Tc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.SettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.SettingsExtensions.html",
+          "hash": "FINAb+mUOIb37MFxoQjKlwTNhsj3uGEkQHnLYIvO98U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.SynchronizedStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.SynchronizedStorage.html",
+          "hash": "okS6i4flHusPyQwWOqLCWVaAThanuFFefsrObBds+FU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Features.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Features.html",
+          "hash": "A+HG3LeNdhXCkAmZvp1R0qwopRBqUghzLG1ZOxGof/o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.FileShareDataBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.FileShareDataBus.html",
+          "hash": "H/txRC+EHZ0D/LQXRDonhP9F6DgxuXo7PXoBbhpP+Zk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.HeaderOptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.HeaderOptionExtensions.html",
+          "hash": "mo5UhPW+1d57ieqFne8ZtvNjuqtM1nzAz8YHFWmvzps="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Headers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Headers.html",
+          "hash": "q8RtDzgnnYUQ3QkuDCz2CfgAUhwQhLeFHZCvWohCFpo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.HostInfoConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.HostInfoConfigurationExtensions.html",
+          "hash": "tHVxi4l793iGqJv1yGdiH0EBOeogC6V+ym4GqMDEfSc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.HostInfoSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.HostInfoSettings.html",
+          "hash": "HQ2o/vqn/Oum8fwz5UySmXwSafhLbnGzI/sP0I4zpuc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Hosting.Helpers.AssemblyScanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Hosting.Helpers.AssemblyScanner.html",
+          "hash": "JWzSCV3DUitJzRteFIrTvmwcifC58I1nGCDrIt+Rhbo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Hosting.Helpers.AssemblyScannerResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Hosting.Helpers.AssemblyScannerResults.html",
+          "hash": "PcEkFb3//vRRxHr2lWiXTCsGJqMzLxMBl0o+Q+v6uJk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Hosting.Helpers.SkippedFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Hosting.Helpers.SkippedFile.html",
+          "hash": "CWWP+oPD0TX42zX6s9fFLYh7sRVwNYVRknXiWJlmHjQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Hosting.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Hosting.Helpers.html",
+          "hash": "zNQ9vwzkDU54JTcU45957Y5A5k4AZM6Bli25WMeagmQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Hosting.HostInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Hosting.HostInformation.html",
+          "hash": "4Ktak8WTP/h6bxQlzGE0UFgO3JE6L1xstoTvZNAXKQo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Hosting.html",
+          "hash": "JyHK1iIKbqkv6THNOoMnlPl+ybdc5HR+Y3o/92dDUYU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IAmStartedByMessages-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IAmStartedByMessages-1.html",
+          "hash": "GizuYTb2799kG0ryQAJ477tGuyIhs0JKtsmPYaX+81A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ICancellableContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ICancellableContext.html",
+          "hash": "ubVa53GzB+GHxVmelcFWywPhZraUZG4kZrjo2WVrqos="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ICommand.html",
+          "hash": "UAhYtsBpi7sHiCL7g/X84JqFg/jpcYGfs/Q3QT17unw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IConfigureHowToFindSagaWithMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IConfigureHowToFindSagaWithMessage.html",
+          "hash": "gvlNa3jG9lBzHZpZZu2ahGNUDP2arTqzZSvZZwkqnZE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IConfigureHowToFindSagaWithMessageHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IConfigureHowToFindSagaWithMessageHeaders.html",
+          "hash": "EMaT/Z8jcGy6ocVHXTV0Am9RaieX2BRj3IiPoU8RKdo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IContainSagaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IContainSagaData.html",
+          "hash": "gZgahr83ayQbPaeLrpx7xmEZDm+q4QCor/VtKNH+eoI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ICriticalErrorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ICriticalErrorContext.html",
+          "hash": "zIPhieyTXWeuY1gLX6aQ0zThYoxyO1/NkngFMhJi6z0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IDataBusProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IDataBusProperty.html",
+          "hash": "0Uk5bFCOLFbZaa+i4XoataCH8OOu9vGVSs4aENRoLIU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IDistributionPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IDistributionPolicy.html",
+          "hash": "hud/NsSlN6VM2zxV3C4+KtXZqRbj5ovBo6AtFZPwpIc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IEndpointInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IEndpointInstance.html",
+          "hash": "8fC6L2gfaAeZPCx5dyMSSh4goQc6yMbpYqxw+IRsuyA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IEvent.html",
+          "hash": "pDPgRt231jyLc75OqohhboJkMF7UMkX71VgMxgUA7cc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IHandleMessages-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IHandleMessages-1.html",
+          "hash": "thixlhEQEYUHq9Cujap0+lGDayyVXrRZxydIeprHvvk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IHandleTimeouts-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IHandleTimeouts-1.html",
+          "hash": "QH4omsbaWjpiY2THVi6rrunmrKs1ZCScRMpNZWPF0s0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IMessage.html",
+          "hash": "HelIg9ANFluXDp9oVjx8END6ve6orYHQGsfidxSoLQo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IMessageConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IMessageConvention.html",
+          "hash": "B5KxEDcbYzvtH0cob81MjzZQmtR8KCzosDwhBSZPs30="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IMessageCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IMessageCreator.html",
+          "hash": "w7Bzr+9jNs3yEzTZ3PJNy/ZdBrU97RkohqE1LS6G68I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IMessageHandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IMessageHandlerContext.html",
+          "hash": "E9W5TWS64xK+3eRVXHpsNvnO2TgzNriWTDDG6w/3BLk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IMessageProcessingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IMessageProcessingContext.html",
+          "hash": "G4GHf1Y4ELo+vXkDlDkMAEdJObNklduxwplW7cdY/bE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IMessageSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IMessageSession.html",
+          "hash": "JQg4HwT0C/9Q/pdMUNhL6aGzRv1qTrTV4G/jyuuJxAo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.INeedInitialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.INeedInitialization.html",
+          "hash": "Xq1wVvnFFcz/doxenHwVS9Kk8FK3fTDdkZacil5hRBM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IPipelineContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IPipelineContext.html",
+          "hash": "mAGHY/C+S0yNydPZhw3xE4JSAMzio28yA9BZFy+BcvE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IStartableEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IStartableEndpoint.html",
+          "hash": "uyaAynyI89yDQ+buaDcHvAeqXBQR2qglRpK0bLmQ0II="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IStartableEndpointWithExternallyManagedContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IStartableEndpointWithExternallyManagedContainer.html",
+          "hash": "IW+eoTAdC2wsQMep3trPXxKdt/nSK8y8FUOhtR+6FTY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IToSagaExpression-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IToSagaExpression-1.html",
+          "hash": "jFZbePxqxvF6Ucru8zX3M9eKDz745cN3pTCdJ5tQYgc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.IWantToRunBeforeConfigurationIsFinalized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.IWantToRunBeforeConfigurationIsFinalized.html",
+          "hash": "VWKpp7fejdnb7iASSboA0AT+bbAS5jxU0CV3N7p5XgY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ImmediateConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ImmediateConfig.html",
+          "hash": "4GgMtiDEy4eUaG/NBrVhQ4dEbN79S4IcLCXhaR5qyvU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ImmediateDispatchOptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ImmediateDispatchOptionExtensions.html",
+          "hash": "gKrsNxXOE318IpZCxpkkC9fIX9bsfDJ4TV7GE9o65BE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ImmediateRetriesSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ImmediateRetriesSettings.html",
+          "hash": "d90asM9SROfhuNLAXvwcWuGa1XkizjavePJH3ZMxpL0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ImmediateRetry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ImmediateRetry.html",
+          "hash": "AictCrzEXP6uRr/kMDE4MxpQIpU54rjsB1zBJEAqVRc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.InstallConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.InstallConfigExtensions.html",
+          "hash": "KmBNtz5FHbYGhWWuLzzw8aAzZk2re/Vfg3DX2mUFdjg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Installation.INeedToInstallSomething.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Installation.INeedToInstallSomething.html",
+          "hash": "cIj1dwqKkZpSjHgTR9JPhV79TDqv8od0jL+g7N9W2UI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Installation.Installer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Installation.Installer.html",
+          "hash": "1iIB0iAN78OM/pE0MqAgWd3PA8ohh58TMjCyb6wKmjo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Installation.InstallerWithExternallyManagedContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Installation.InstallerWithExternallyManagedContainer.html",
+          "hash": "ydpxJFm/M+UPf+D+Az6en89fQ3S61FXiMzte8T77qt0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Installation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Installation.html",
+          "hash": "ba1f5wwsKZv6LMhemmNPqKZoYY3p0c8LI5wuQZhDT4E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.LearningPersistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.LearningPersistence.html",
+          "hash": "8LUMaaaed/Vz6XTA9xjHG/QitbQuV5oKKp1sRDU7rSc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.LearningSagaPersisterConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.LearningSagaPersisterConfigurationExtensions.html",
+          "hash": "b8u13JSU2ufFhJW2lX83qwXVKytA1W0ljLFgLw/poS0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.LearningTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.LearningTransport.html",
+          "hash": "xXvbW4b4Oqs6YzJ7gQcqJ6nGIlUAXH6qYkeOdMMusEo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.LearningTransportConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.LearningTransportConfigurationExtensions.html",
+          "hash": "V00K1YQyxkVnzt5QRY/s3E76dOrJ+J+nD8mk+cctnJs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.LoadMessageHandlersExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.LoadMessageHandlersExtensions.html",
+          "hash": "LnBqnYVHVtiZ+ia1AktY+ie3yQ25H/jXUSO8psjF0/E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.DefaultFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.DefaultFactory.html",
+          "hash": "S7y0aHOIBaCe4MN0OF4qqmViP/Hf1kbygFoyl1vW2+Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.ILog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.ILog.html",
+          "hash": "c1dYHVXu+iiZAu9jYEmoBsBeahxT9eZ52t8Mzc6t0GM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.ILoggerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.ILoggerFactory.html",
+          "hash": "4u7ynu0wBLVqbWXa+PQL7ovmwBmuwIxRXAXvd2TSLzQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.LogLevel.html",
+          "hash": "bISW+NU2DUaYzbZ8kkD31u9Z+4TOLOEreHyVbbUv0b4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.LogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.LogManager.html",
+          "hash": "ALDNRYy8lYmYhpoTZQoWpZ/d1FmmcYnHLoM9NnTXCds="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.LoggingFactoryDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.LoggingFactoryDefinition.html",
+          "hash": "siaIGdwfuy92V55pswQ3tYiqh8iauAYUj7JVu1dDvAY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Logging.html",
+          "hash": "Ouhi+Bg5BoW3KPW2weWQvyJNJhqF1jUdpxGqLiC/oPQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageCausationConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageCausationConfigurationExtensions.html",
+          "hash": "Ed9aIvvXBz/fNQPGe2/nHsnjKqOxMIJ62i6C+zYahvs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageDeserializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageDeserializationException.html",
+          "hash": "OolsqJdjtslmqPpTyRKWFz0v84H8EM5VBxcXtvydjR0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageDrivenSubscriptionsConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageDrivenSubscriptionsConfigExtensions.html",
+          "hash": "PanUJb88gm5qcOf1phPR+OgfjP6V6T1yOpPQ5Fhjrxs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageIdExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageIdExtensions.html",
+          "hash": "njiwcXs8USqBhDN2iNK5opMTUZj+ulUFVw2UXU26T74="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageIntent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageIntent.html",
+          "hash": "ieMtERoAE2gOY8LbxJ8ESAng8GEIZyNMaaxyemnYMQE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageInterfaces.IMessageMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageInterfaces.IMessageMapper.html",
+          "hash": "84Qpr5TeHEMOYj6cvK7qjkuy7zvoYh5e8dnELhm3DA4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageInterfaces.MessageMapper.Reflection.MessageMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageInterfaces.MessageMapper.Reflection.MessageMapper.html",
+          "hash": "eFzWTjWyYdxpwzqbMegBxFYAllXhASBpqx0+eBeuWfM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageInterfaces.MessageMapper.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageInterfaces.MessageMapper.Reflection.html",
+          "hash": "E0QXilpF8SYNnr645g5dR3jyAbQdQzyQ8gYWlcxBoqw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageInterfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageInterfaces.html",
+          "hash": "pMxX52iSWydMagg2TMrDO7TmpKU905IoRE6LDs51x9g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.IMutateIncomingMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.IMutateIncomingMessages.html",
+          "hash": "KiVY7dn33wFHUTyHTdAULN3M51JmOeQ9Fc6peaRjZmI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.IMutateIncomingTransportMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.IMutateIncomingTransportMessages.html",
+          "hash": "zz0PdQq9j2cajfvRuREd1kNomZffR59iQWp17sP8bXw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.IMutateOutgoingMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.IMutateOutgoingMessages.html",
+          "hash": "qwfmKd29BWh+EgPqcdGdHSk6rJVIVMsZshdDcK4JZjw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.IMutateOutgoingTransportMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.IMutateOutgoingTransportMessages.html",
+          "hash": "gkXZUgR+75fsqi9dteakNMoJShLg+o4lRURk2jIUXRE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.MutateIncomingMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.MutateIncomingMessageContext.html",
+          "hash": "gvAmA8WoVGXTCW82M16Q48729SXKv4XhUNj8WZq8prY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.MutateIncomingTransportMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.MutateIncomingTransportMessageContext.html",
+          "hash": "uuF1RPfsAnxfEXA2ORihI4PqxHmlfQDMUetc173kRFU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.MutateOutgoingMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.MutateOutgoingMessageContext.html",
+          "hash": "bYWOJ+EdcVV0zEu8uh9l6YGOp5iYYKr8YI0CtbzqTAg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.MutateOutgoingTransportMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.MutateOutgoingTransportMessageContext.html",
+          "hash": "O7PM0ph9yy1jQTVt9i+ZxGAnTk4H2tVmmoyvx4s/nsE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.MutatorRegistrationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.MutatorRegistrationExtensions.html",
+          "hash": "JiPjwmdmZf2kDBibdpPP+Y3PPNzII0GcmrpkV9h+azk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageMutator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageMutator.html",
+          "hash": "e5FsKnuJEHSGPKWBitb2GzGEOLYmT0BwUq32R1zTBaE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageProcessingContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageProcessingContextExtensions.html",
+          "hash": "x+2soT94rOsjlHNck1O7NTFhOZqY+SMm3JK4KkqfuC0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageProcessingOptimizationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageProcessingOptimizationExtensions.html",
+          "hash": "pCpbn/WP3qfFI0RSp39Y2f4aKLKxf26NwRccLP6quFM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MessageSessionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MessageSessionExtensions.html",
+          "hash": "N6a6XgjIV+M027Yzq8lQK/eGt3YvMpABLGXV5xnVRVo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.MoveToError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.MoveToError.html",
+          "hash": "7Pt9DquE4r0mL0ec6YLn053mXqAgOuVZgqpnADr+SfI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.NServiceBusMarkerInterfaceConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.NServiceBusMarkerInterfaceConvention.html",
+          "hash": "2Pglmg1xssfXfcoB0nSz58NzK2rCEwxm9xw80eSIRb0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Notifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Notifications.html",
+          "hash": "dgbxolAhfIsxyr3fFQ3KbCKot+MtooO4pBJcSxIPkBc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ObjectBuilder.ServiceProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ObjectBuilder.ServiceProviderExtensions.html",
+          "hash": "0YDBaeIYEsfp/IrMF/ZLJ5VTGfLM/2mzmggyM6V24HU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ObjectBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ObjectBuilder.html",
+          "hash": "/zukqLMfMhE8d+i/0LNCdZxhTdsdEKWf82FPGLKooQc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.OnSatelliteMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.OnSatelliteMessage.html",
+          "hash": "xPj2qqYB/mdNzDawHP4xIm9PRWXWTFnFFLRITFWL0P4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.OpenTelemetryConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.OpenTelemetryConfigurationExtensions.html",
+          "hash": "Zl3a441j62sEX+OA6w2GLnNR8t1+kwflVNSy0VP72TM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Outbox.IOutboxStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Outbox.IOutboxStorage.html",
+          "hash": "tTBAz1Ct3ntm7WNKDMvn/O9UFjx5yTEvt+XrIwOQYyg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Outbox.IOutboxTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Outbox.IOutboxTransaction.html",
+          "hash": "0oMTnvoJE83QxT8vniZF4ObnLv0OXJ/MrGZE6vJiyGo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Outbox.OutboxMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Outbox.OutboxMessage.html",
+          "hash": "xFp2UTSDaLhhQ0er0RqYlnjoWD9te/yKm9xuR3h+4PQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Outbox.OutboxSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Outbox.OutboxSettings.html",
+          "hash": "D5BhthjH8wt8N7nEWxpIEjFW1TMUb8btpvoCdgoAQjY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Outbox.TransportOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Outbox.TransportOperation.html",
+          "hash": "eCl8KUoKtlW16qOAsQ2LWm88rywuAcpSimsYBCgSBE0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Outbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Outbox.html",
+          "hash": "fEDGLjpEsNGMvk353B/0P7QgmXBdwK1CICV/W+S+yww="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.OutboxConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.OutboxConfigExtensions.html",
+          "hash": "hU5Gve0T4Hmvo/4bjFcIYsvRefiNEDoaM/ECJw7IaBE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PendingTransportOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PendingTransportOperations.html",
+          "hash": "m3lyeRVqBDD19W7MHZKfNhnP+cTQvcH+4UyMBPTG/as="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Performance.TimeToBeReceived.DiscardIfNotReceivedBefore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Performance.TimeToBeReceived.DiscardIfNotReceivedBefore.html",
+          "hash": "8CoOCFKw/vPAV2Zq2NloFGvRSsUoUwZWwvE28YTOTeM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Performance.TimeToBeReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Performance.TimeToBeReceived.html",
+          "hash": "kQ/x0G3HhWM+aFlqH2Ms/gsb4Vt3gvjNx7U0ai8cs1Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Persistence.CompletableSynchronizedStorageSessionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Persistence.CompletableSynchronizedStorageSessionExtensions.html",
+          "hash": "l4CBZij6hcNx93JN7SiBSCqGMQjpUIlVZFKxXX4GD4w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Persistence.ICompletableSynchronizedStorageSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Persistence.ICompletableSynchronizedStorageSession.html",
+          "hash": "CQSEB80Sy3+/orBhoe4oN6ej/0CmX7jgHeOPtfV7NNY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Persistence.ISynchronizedStorageSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Persistence.ISynchronizedStorageSession.html",
+          "hash": "8w+HtdBm7w6JOecWPihsxfYX7ix4Gzx8/1K5w1XrUr4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Persistence.PersistenceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Persistence.PersistenceDefinition.html",
+          "hash": "zWqSFtX860fJUixJZNLrhDpE7RjdXb6NJIWK6/4FX5g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Persistence.html",
+          "hash": "30p5jpS1vOeTaG3g0m4E5tZcT1gU8xasKhBH0PRjMUs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PersistenceConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PersistenceConfig.html",
+          "hash": "xmgG0HInNusgx3tFGiIJOrCchydCemAd5LqhI7+866M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PersistenceExtensions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PersistenceExtensions-1.html",
+          "hash": "V/REDpCLil8xM15rg7aIOL4d4RcUFtwz52g+Iu4f/Wg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PersistenceExtensions-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PersistenceExtensions-2.html",
+          "hash": "lvNf7snYpbWEJQ9vqq5WlNuCrRydZ5yHS6RCpEHpdYA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PersistenceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PersistenceExtensions.html",
+          "hash": "FgZ/5JjXpHxDU5ib7B/4qI6OlEnydU078AodL2AV4Hg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.Behavior-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.Behavior-1.html",
+          "hash": "iyT8keq1f7rzTc/tlebt5/G52JHCt25xVDTCqOUsCMk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.ForkConnector-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.ForkConnector-2.html",
+          "hash": "2V4wot3HFqLt2CzwUzJwlETqKRKRbHFwKPcZkCYZwz8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IAuditActionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IAuditActionContext.html",
+          "hash": "IbbZzPMQXKEIecJQgXkG94B+iu1uH93E2/EOOfCcBWk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IAuditContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IAuditContext.html",
+          "hash": "jHmOQh0BUFL/hNa3oqd616Crd2xWNhF1Tmwax+jLy0Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IBatchDispatchContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IBatchDispatchContext.html",
+          "hash": "dZ5J54oNzY3FsVkCct17+wqCeMyJ58dYvzQ0TKifP8Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IBehavior-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IBehavior-2.html",
+          "hash": "7KyLa/J8U9i7bVb0EAXgYEtqW4PmXkfeemNB96v6C1Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IBehavior.html",
+          "hash": "tvcjLC8PZNEZz7rfAYNcP0lB+53A7W4vmgiB6pp+FO8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IBehaviorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IBehaviorContext.html",
+          "hash": "jVA+Uq4WwBRbjaVu72PjQuB9Mxdd2jv1Ki0gY9pO6oM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IDispatchContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IDispatchContext.html",
+          "hash": "TPENTPgHnidXwr+YnB7oh76PaM6jlZ5/eDn28FZgEy8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IIncomingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IIncomingContext.html",
+          "hash": "kD4gyqW0wq/0+8ST8Vew9d0V1fiWoHPUX1L5Ode/e44="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IIncomingLogicalMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IIncomingLogicalMessageContext.html",
+          "hash": "JQsw/rhiUJbKVAxAr+99mWc4FresZf5twxid+BvLxts="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IIncomingPhysicalMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html",
+          "hash": "laK5FSEfuoGBSsYW91ubmIzm47EPKIiRaW7OBDUKcIo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IInvokeHandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IInvokeHandlerContext.html",
+          "hash": "5XKFD9dvgQ9TT4vM7WTVoGqVsO6UfS2Xp9+fg0Oh3Ls="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IOutgoingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IOutgoingContext.html",
+          "hash": "+UtYT6NVz8fdJ4+80p5fRqR7FU0SNzA6yZrL3pWR3J8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IOutgoingLogicalMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html",
+          "hash": "X28ZcGoCmYYTOnzhtinXuPIZK/peCa1cJtE5StHwcBE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html",
+          "hash": "tnkNfjYxagppSuWvheCc2qz6Wh6g2XNJ0/wVnCIVj+Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IOutgoingPublishContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IOutgoingPublishContext.html",
+          "hash": "ivqdW3ANQu/6Vstm5xkXd+kY0iDURcCAqVu2JV2F4ko="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IOutgoingReplyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IOutgoingReplyContext.html",
+          "hash": "vtZVUXDke2ytjhEOM5essHu3CgVwVPZ8QUo5Gq9/Kes="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IOutgoingSendContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IOutgoingSendContext.html",
+          "hash": "Jmq3Fs17Cb6U4LeRYjvb/dBo5A1oEurmUwDChC4pyCk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IRecoverabilityActionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IRecoverabilityActionContext.html",
+          "hash": "bjIw62pe+YccCTiHakLD0nsN1p51qorM2N4bNShBy4w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IRecoverabilityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IRecoverabilityContext.html",
+          "hash": "AUseGk16DQ2IuJjCIfAOEuUYqfYJoVtARFcmmZdDMaw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IRoutingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IRoutingContext.html",
+          "hash": "pFl7BOvxbY/Ns/YRSfYYpERt2FBbcFGuMCXt8YKJRFY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.ISubscribeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.ISubscribeContext.html",
+          "hash": "5fP//gNOUchgvqArLP9/x8EjqLHsjsT5FT28kMy/u6Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.ITransportReceiveContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.ITransportReceiveContext.html",
+          "hash": "EjCW9gj/boDJP5gONpUyxO6N4rqPHSlPi2a3dwKqwDE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.IUnsubscribeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.IUnsubscribeContext.html",
+          "hash": "6ApGnlyZccmTv+8GfYU9bKTU8Kf1KZU3tqKNZtmzK0I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.LogicalMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.LogicalMessage.html",
+          "hash": "lfO7615jhI+NScSErfB/p1pwOXgY0FWFerAbjBb+xDQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.LogicalMessageFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.LogicalMessageFactory.html",
+          "hash": "S4KFOxL/7zk/V5kQibHcVQ0RO9slK8MzMPzSMRKiOBQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.MessageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.MessageHandler.html",
+          "hash": "CjKHuHZgqHyDOBCW0neM+Qd5GY01eWafXC5eJKO2ONg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.OutgoingLogicalMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.OutgoingLogicalMessage.html",
+          "hash": "tk77LZn1PqwtZASNM36ZRr0n+Hd8t9BXOQcQJb3B0vA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.PipelineSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.PipelineSettings.html",
+          "hash": "UvVjk6QbuZllvpxj49SA8fihmiVRncC8keelhguHIfE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.PipelineTerminator-1.ITerminatingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.PipelineTerminator-1.ITerminatingContext.html",
+          "hash": "sm1f0DRS6BHr9d7Iev0P2HJ4YDOqqhu3hTfUb2fJ1P0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.PipelineTerminator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.PipelineTerminator-1.html",
+          "hash": "iYnoy1RlO2ne3Tp2+L7VykTgK+48NhG1x5dH6NirPL0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.RegisterStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.RegisterStep.html",
+          "hash": "2GaH6Bz8DLwYX/Tokb1eD+Ath5Ai9GTKnQOovgwScTI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.StageConnector-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.StageConnector-2.html",
+          "hash": "UEDfeGv1OZxohN4XZZ0EpeMV+B+qbjad0h7OkCHyhjA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.StageForkConnector-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.StageForkConnector-3.html",
+          "hash": "yoU7HQnD5UdocPuMek4iH7beYo1BKmf78Ao9dKGsYBs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.TransportMessageContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.TransportMessageContextExtensions.html",
+          "hash": "8SE2GO1Q3mndRl1FpBMHzgZfK1VivKIZIGXMdlGUGHY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Pipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Pipeline.html",
+          "hash": "tCz18MjJ4RYZHo6rEuAR63uPq8NU5FeJ+fDxgxEEs0Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PipelineContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PipelineContextExtensions.html",
+          "hash": "mUmdUNdsajo40vS4aV27xUWj08ZajvG1+gj2vsUEmcI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.PublishOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.PublishOptions.html",
+          "hash": "7t0xwPTQpcLWyyuzilek2tPcslVFuiJF51n4ATd/1/s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RateLimitSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RateLimitSettings.html",
+          "hash": "Ifr/WEYpAKdzM6y7RNkjxwfbKct49S6bTsBAlus/OFI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ReceiveAddresses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ReceiveAddresses.html",
+          "hash": "sEVKuf2yI6BPTur1g3FkfuiaaiPKf9jm8g2JVHQP3uA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ReceiveFeatureConfigurationContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ReceiveFeatureConfigurationContextExtensions.html",
+          "hash": "wp28wExL+mw0V4YWqgZb7AONENihJoUNCBJICWx9I+8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ReceivePipelineCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ReceivePipelineCompleted.html",
+          "hash": "IQ4cC8cuYUjmk08RgpybYGBPqDcu1ujPJjIcOZy/UFU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ReceivePipelineConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ReceivePipelineConfigExtensions.html",
+          "hash": "K1c2HX44DIalgGwwTCYWsF3LPfb860IFGm1SMhrJyYA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ReceiveSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ReceiveSettingsExtensions.html",
+          "hash": "pbc34gfelsC+UTmquge9V2vwuVGbUcg3boAjSiq9K/4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Recoverability.RecoverabilityContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Recoverability.RecoverabilityContextExtensions.html",
+          "hash": "j0YCus6EBHuLoiYsofUV9WDYnv/iuAuSvuifErnhGp0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Recoverability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Recoverability.html",
+          "hash": "p/k/max8zhHsrjkoRtkHdOdm9uuMRva0pI7cRrl8QdU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RecoverabilityAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RecoverabilityAction.html",
+          "hash": "p270cvREU1XpK5mcZpeiDehAShn1eSkKsy2SNFPEzXA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RecoverabilityConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RecoverabilityConfig.html",
+          "hash": "Y9JNZLiwAbuYOYF7I7BTtBqW4rLUf0lN5/V6gqAcpds="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RecoverabilityEndpointConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RecoverabilityEndpointConfigurationExtensions.html",
+          "hash": "3+2vtNcAN0E/iwYIcFs8mesOQXJ62rlECGPjcvldZEY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RecoverabilitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RecoverabilitySettings.html",
+          "hash": "yFtibWD+Z/Sm79EAfqV8cw+MBm93chyE86cgBG1nF5A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RecoverabilitySettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RecoverabilitySettingsExtensions.html",
+          "hash": "onuf8Msm8VDJ+xo/RK3TGoGrNuD/12NN8HVkP978le0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ReplyOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ReplyOptions.html",
+          "hash": "pscvtpidMlDUgu4mNzkXZLdIGofl88wK0EPA5mLRYy0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RetryFailedSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RetryFailedSettings.html",
+          "hash": "9CNSQmkICf6x62YgSKypseGIqBVVf0gID0n+KE+ph6c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.AddressTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.AddressTag.html",
+          "hash": "PHfQheKLw5D1qPIHx0fTeDEcvGL4+pfxNhXiIJ4SxxM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.DistributionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.DistributionContext.html",
+          "hash": "40slwqaR/99+c7kJW6X7N9J7XN0xwSKmZJDDfbLpNCE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.DistributionStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.DistributionStrategy.html",
+          "hash": "+Qd0yN93EVrtj0varZUoobw9dBIwgCpZCmHfiLJAOVI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.EndpointInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.EndpointInstance.html",
+          "hash": "CV1y1SBX9QcS3ftfjjAezvQhJ4U3rgGct+wHPjWCo2o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.EndpointInstances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.EndpointInstances.html",
+          "hash": "KdndDPIIdzfGEsD4ObLfE7R+yTYb4OdsWkx/pyKtTSI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.IMessageDrivenSubscriptionTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.IMessageDrivenSubscriptionTransport.html",
+          "hash": "GIPhRXBA/CObYC5q++dhJpjVCN+YNzlQWKC6A2zd9G8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.PublisherAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.PublisherAddress.html",
+          "hash": "5jqmTL1WJEDDuBbjf0JxWnm6MUq586I6IEIhGTivKVw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.PublisherTableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.PublisherTableEntry.html",
+          "hash": "K1h6jXPn4v63dHjKLPr54qFnDBclLo4ceGOVH44zASY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.Publishers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.Publishers.html",
+          "hash": "W+d2MhVjiysGmO7fQkjuH6KiM7bv69g+KHVoiQcIEd8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.MessageDrivenSubscriptions.html",
+          "hash": "mBCk+YoSLdP38NdsBoSp6ekweXbNhTAVrnKEHa489NE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.MulticastAddressTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.MulticastAddressTag.html",
+          "hash": "dofkxf5sNmLz0TpZkZ+5otttLZL5iFLcZGa0WSlolBQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.MulticastRoutingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.MulticastRoutingStrategy.html",
+          "hash": "fERZ8xucdesYdOyqwCrve3Y4IjUqWM7ixcmrEHGoGKI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.RouteTableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.RouteTableEntry.html",
+          "hash": "Xhq7xssMOX4APd03Yu4oqXlDP2vNLbX8hGp3qu3QvBg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.RoutingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.RoutingStrategy.html",
+          "hash": "Bbp/RIkXfMyIOwSn4bX4HVyxmDMzWJMVg9alWrcqUjk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.SingleInstanceRoundRobinDistributionStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.SingleInstanceRoundRobinDistributionStrategy.html",
+          "hash": "pj8y+c+0U4gTQhs+5wmQgzo/wyjg/eJe1DykC8Qg9K0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.UnicastAddressTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.UnicastAddressTag.html",
+          "hash": "TF7cN6+dmuLUGmMuCUbeHsAGFbzDwdq+F8WutTrYA24="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.UnicastRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.UnicastRoute.html",
+          "hash": "xAxnScpNRAThU2t0dQNQtVG95FBAxA9OYMZGL82JaQg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.UnicastRoutingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.UnicastRoutingStrategy.html",
+          "hash": "O5Lbbgz4smefwxvQKjbX4EMXeUIgSuLJcVh+8N2fZvE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.UnicastRoutingTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.UnicastRoutingTable.html",
+          "hash": "PEHVKKBKvMiFz7jPNlDSm2higFpxnLne9CZylCtcieE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Routing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Routing.html",
+          "hash": "Q8hBm7xfWOOpnPfoTD0KBfsAS7aXM17NMSmJBBEKE/8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RoutingFeatureSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RoutingFeatureSettingsExtensions.html",
+          "hash": "gY3N+vxf3KktVr6/QCZefWvrUvHNRPgToqlZkB//zEg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RoutingOptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RoutingOptionExtensions.html",
+          "hash": "aRfnPkkS8aP03OCHofy28rrhrMj0DHRgwpZEKvpay64="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RoutingSettings-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RoutingSettings-1.html",
+          "hash": "1h4TfUTJJBXYXKSr/mGa7nkGUYt7bX5cJHx/ammrkYY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RoutingSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RoutingSettings.html",
+          "hash": "EOTNNHXVJrcLvTMhgzym9Svg/dXjS2JLAUsITnEphHM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.RoutingSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.RoutingSettingsExtensions.html",
+          "hash": "doVlv5e14LKZXkN6Yxhk0h7YVcR4z93yeSXDZfrmctU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Saga-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Saga-1.html",
+          "hash": "XJmLtRE6GrVMb/uszkhkHfSKRj2uppxQAjqHviuqFuM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Saga.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Saga.html",
+          "hash": "4p28gjXHNQQ0+OiZLEg1ZbzF2OW69ddEl3tskgrnc8Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SagaPropertyMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SagaPropertyMapper-1.html",
+          "hash": "jp5J0EJ3m/tG4kD7/hkXKZop0YVfgOUvh0bFBBHVZss="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.ActiveSagaInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.ActiveSagaInstance.html",
+          "hash": "QJRVbqHu99UCY+Ai+pTl7vxsN1oPN3LgljBbSIjBY1g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.IFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.IFinder.html",
+          "hash": "trDnkrYo3Dvq79GXybuHEbPrSdgT80zZJgYa0+A+pHQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.IHandleSagaNotFound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.IHandleSagaNotFound.html",
+          "hash": "enZS+iSWFzArCtaUUYKGilyo0/ZZBaD1ukIqvAexjBU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.ISagaFinder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.ISagaFinder-2.html",
+          "hash": "J8P29LSD1jErYb/CW+JymKDjjUSKy2rGqUZMJW3fcv8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.ISagaIdGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.ISagaIdGenerator.html",
+          "hash": "EBupvoqI/0Y1k6FFFgdkZfdr3KrNRWaO4LXr3NHHPxs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.ISagaPersister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.ISagaPersister.html",
+          "hash": "Q7c+O/m1aitx4/6r3OIvcLELc1hHYa11jWaUlURGRDY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaCorrelationProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaCorrelationProperty.html",
+          "hash": "UqlDLUhUGFtqFz8amCv8NYM9NSMCDAo+n5+r05pp6rE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaFinderDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaFinderDefinition.html",
+          "hash": "vUD9WfK0D6uF8+hWDRcmCgieRH2wtGigZ9NKLuCeSEg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaIdGeneratorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaIdGeneratorContext.html",
+          "hash": "kx6KtdhC63FUIGsrL8AYLZJcdPMsP9f1eX9Z9l4HxXw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaMessage.html",
+          "hash": "0MUEw1lxwfEQP0cVX9SrW38vigqoKraZSb+jrmf0HuM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaMetadata.CorrelationPropertyMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaMetadata.CorrelationPropertyMetadata.html",
+          "hash": "kTXoWshy7tDG5fyYGqL6326hcKHkrTvSpiKaeWj448A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaMetadata.html",
+          "hash": "yiNVd3fQGogUysYZbDji2ILJZuTLwbJeYk7Lpk1l6wo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaMetadataCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaMetadataCollection.html",
+          "hash": "kzVBnCFZx/27v6ECTKQVak429lwMIwXu0XQU+LLNws4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.SagaSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.SagaSettings.html",
+          "hash": "63NppFpWPw1SLllgIs3HMu3H3Jp1mzVijhmJyhMML/o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Sagas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Sagas.html",
+          "hash": "4K9Sr2t2paYNjm9I4aXe8FclJzdxt/TwMaykLacJHok="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SagasConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SagasConfigExtensions.html",
+          "hash": "Va1uRyk4lL2m/8J6gQpscba64e/ozqLjz9AQuK//G4g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SendOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SendOptions.html",
+          "hash": "012wXqqogf5e1SlUs49cj6ktGOMTVF/PnkhQCfxF4is="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Serialization.IMessageSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Serialization.IMessageSerializer.html",
+          "hash": "bVAhcusVY4v5JB3QHtRcrBN1w1yaXtwgfEehcdcfYbg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Serialization.SerializationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Serialization.SerializationDefinition.html",
+          "hash": "sbOZ1gbOTK/y2M28H5cpRtL93uLTw67cmPZK5c8Ta0o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Serialization.SerializationExtensions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Serialization.SerializationExtensions-1.html",
+          "hash": "WnpOyxw6x9TTwciNIi52ABdYI5slkO6sklXCl4GJKF0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Serialization.html",
+          "hash": "JvNvr+s3L+Khm7puhZH09nNEVwF/i02ok/zzuNHnSZg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SerializationConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SerializationConfigExtensions.html",
+          "hash": "dL4BgbH91YqJdeibiwka3+XgRKQqk0ZeMHLgx+7uqYE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SerializationContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SerializationContextExtensions.html",
+          "hash": "4p54x+lDBC0q4+X+2wA7Cw2+ad9OUdMYaMXN5BFE57g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SerializationExtensionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SerializationExtensionsExtensions.html",
+          "hash": "RWPEp++KTWreehsx//tTT0CzhRFGRzyU/2zOS/hRmb8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Settings.IReadOnlySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Settings.IReadOnlySettings.html",
+          "hash": "41dt2lsuiEhNaVtV4Jps1R30Q3xSlVdQnQA/lmrQJ7U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Settings.SettingsHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Settings.SettingsHolder.html",
+          "hash": "xx0MweSxAI/pmQ8kbQZwKXDPqHtxcPLHFHb8E9tC0Xc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Settings.html",
+          "hash": "DrkISVG0rmmc+3zayWOxvDVCnHBsHv5+haQQwfHqufg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SettingsExtensions.html",
+          "hash": "8puu6+z05CFGa+tDkxCdAXMmWApxG0t3Z/ZkzkoWgLw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StartupDiagnosticEntries.StartupDiagnosticEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StartupDiagnosticEntries.StartupDiagnosticEntry.html",
+          "hash": "UyuiQWJLcexucssBIqgqoLRliiduCfUD8QTLiDZ7h4A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StartupDiagnosticEntries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StartupDiagnosticEntries.html",
+          "hash": "nSVnGovwIpQ95lyUzI+fG+C9HRCPw4XkdCwSZxaE6vM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StaticHeadersConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StaticHeadersConfigExtensions.html",
+          "hash": "1yk9MSPET2JHEmRWaS59pG1bPs4AyGtlsks+jI93NWU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StorageType.Outbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StorageType.Outbox.html",
+          "hash": "8dpY/uXcoR7H/cUiXNW5qwEoGfpTbiVeen3SYIv/pWw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StorageType.Sagas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StorageType.Sagas.html",
+          "hash": "YxEQxhvuftIlI5GVD3erdUafV+jS/J92EjOaib1DKss="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StorageType.Subscriptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StorageType.Subscriptions.html",
+          "hash": "I3mz36NhY+u0fBJZxIfhcavlajQkpj/D98Dgnl8/EcY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.StorageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.StorageType.html",
+          "hash": "2vKTFuLA0lakr6Z4DuGZQj9+hWjF5RN66vRH3OuHl84="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SubscribeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SubscribeOptions.html",
+          "hash": "A59Bmjtf5s0HHK2vaiMyZVXVdPI388ToUgS3Ylzd3a0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SubscriptionMigrationModeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SubscriptionMigrationModeSettings.html",
+          "hash": "aKOMJpnELCsYvAERYYP9ZRoQHzclebvt/kb4k0grFOU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Support.RuntimeEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Support.RuntimeEnvironment.html",
+          "hash": "MCxBkvpjIaMCO46rQEmldMBx9Dm0gbRpSWynftN/au0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Support.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Support.html",
+          "hash": "iXcu9uRDCGApP0I1BX2bvMZPvmkxop+tYRmkzbyBS0w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.SystemJsonDataBusSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.SystemJsonDataBusSerializer.html",
+          "hash": "nlCKNUBIUVsaE1skcgnqug+KyXCxdJjo7YhZ8aDSPOw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.TimeToBeReceivedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.TimeToBeReceivedAttribute.html",
+          "hash": "25Zo4ukJc47+q+6b/Ju7s3cp8i09E/W//O5dmD2BFsw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.TimeToBeReceivedConventionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.TimeToBeReceivedConventionExtensions.html",
+          "hash": "YLykgS7AhzXBVwwxBTIPcF5O9TjpI9EuePQo4/iDAto="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.TimeoutManagerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.TimeoutManagerConfiguration.html",
+          "hash": "zVXtwVtfkC0rvV3BH0l1YCvPj5e7EKq214HunjHiN9Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.ToSagaExpression-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.ToSagaExpression-2.html",
+          "hash": "wA62CIP2BrKGYeIBh9MQvWkBbdhjUUsyUZ75aheextE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.DispatchConsistency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.DispatchConsistency.html",
+          "hash": "VMlm/HZDGXIBydZVj/d8GESycx3nXFM6FeDlibU+JMw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.DispatchProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.DispatchProperties.html",
+          "hash": "i1cox47KPEpEip5fN3Rrn08GOTkfPv1E3BG7JaPIKKI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.ErrorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.ErrorContext.html",
+          "hash": "D27USL/pJj0IKxNxQmtDrLVNKyD0lX/iNgUTwgyPjAE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.ErrorHandleResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.ErrorHandleResult.html",
+          "hash": "8oEn8IAfvoSNemPPEXv1nyOPXMK+4jzaldLQi8NSAlo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.HostSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.HostSettings.html",
+          "hash": "M42dP+LlKToIpkTcrbEHxt8eJpZR2iZty4pdGBPPJfY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.IMessageDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.IMessageDispatcher.html",
+          "hash": "H5nqSsA0UjV34cosL5019lUkxwC1ikuazfV8nnoJaME="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.IMessageReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.IMessageReceiver.html",
+          "hash": "F4nJDAikluGPvzVIOPrhvzcMNJXjZUz1D1p92Mwd60Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.IOutgoingTransportOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.IOutgoingTransportOperation.html",
+          "hash": "soqSYcWJgzEfWhRccFLJzzXgliLplUJYK1QVQbyeuzk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.ISubscriptionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.ISubscriptionManager.html",
+          "hash": "zfS1d7Et0I+vBCV56UZgtsDnbvFOU35n10t0OsATTMs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.ITransportAddressResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.ITransportAddressResolver.html",
+          "hash": "1419xFp9n6XwHEnDzcQF/KLFOSRYI3lM2rGWUTha2uA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.IncomingMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.IncomingMessage.html",
+          "hash": "/uxSWIjocBieEWwsQ8Xp6yA7MA4J1qGGhuwRfp5B5L8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.IncomingMessageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.IncomingMessageExtensions.html",
+          "hash": "TiZWaIwFUPxwxjqD3cq4297Gjp51Rpb4m/Sx89eerwQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.LogicalAddressExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.LogicalAddressExtensions.html",
+          "hash": "7PRi7Wize2idcg9CRjiDWlSAGmGX+EDqcFegNRrTA0s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.MessageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.MessageContext.html",
+          "hash": "PJXkR/xafa8OO9P7/EqdibnX4iEtpDSZyKa7Wqehc8Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.MulticastTransportOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.MulticastTransportOperation.html",
+          "hash": "fEfON2iaHQGnLqBrugoFUK4iLJ/6YlNsnCxJR2o1glI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.OnError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.OnError.html",
+          "hash": "V20GrJxYtxJhIn9EooPUeGqoZEYAkOPSNU4XA8RRBVs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.OnMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.OnMessage.html",
+          "hash": "4jtQnvy/1i/7QMqMr4QDIZKjDBp00lzeo3H6ExcpDFY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.OutgoingMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.OutgoingMessage.html",
+          "hash": "edqHxqPQRd9nGZ7hvNp2EWTnvKphN5p8h02psiE+9Y8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.PushRuntimeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.PushRuntimeSettings.html",
+          "hash": "LH7mGcKB1h6ISCazAaBDehy4pD3SqQUTQLW2eWMofRU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.QueueAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.QueueAddress.html",
+          "hash": "lJJF1mo/8FDKBPWyP/yDYupk5g4/RNXUc+EUldAEUYg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.QueueBindings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.QueueBindings.html",
+          "hash": "8TMhKAUBhBIhOoz2ns6omTHcHAmUhTE/tLz1sNY0a6I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.ReceiveSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.ReceiveSettings.html",
+          "hash": "Emv41bY505JIf3MUDE7q+V61v5IgtfKKfVZ+TjE780I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.TransportDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.TransportDefinition.html",
+          "hash": "xWHD26PmjBLqwKTLEMuFVqjDnHQsyP2iCbrUV/LqsRo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.TransportInfrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.TransportInfrastructure.html",
+          "hash": "AEY2fgVaBMkpXQMsbBKX6mVSUbC6hV9RFdjkEeIEQ6Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.TransportOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.TransportOperation.html",
+          "hash": "apdbUTCT1rvr/Ff0kZxzVragb0aIWEReZKi3STSEwhM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.TransportOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.TransportOperations.html",
+          "hash": "saHPztnxJLjbVh9UKHgliUgtgovTJi5+HqdlOKpJxcI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.TransportTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.TransportTransaction.html",
+          "hash": "WpdwbWrEcs8eOzla2Fvrhc/EM7lkUBTZMxa/A2E87ZM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.UnicastTransportOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.UnicastTransportOperation.html",
+          "hash": "fekbM9RBOdoyGsSu5E7j4ocEYiirHdwWg0QoRKuCs9M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Transport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Transport.html",
+          "hash": "RGdmZyUcxlMkyTFoyJC3m7edtzIVCGdXQb2oG7iFMVc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.TransportExtensions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.TransportExtensions-1.html",
+          "hash": "KxoNELOpS8dHniDarmskXuj0SPAI6+MnC9nVImKSQ48="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.TransportTransactionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.TransportTransactionMode.html",
+          "hash": "w5x/zxsTksmXaeV5sWcKa3coUzVkLfL22M+GN428ZsU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.MessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.MessageEventArgs.html",
+          "hash": "84w3bOH4clq+kA7hK7lXMUoFcOf/vTDmidQaNBsr+I4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.MessageHandlerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.MessageHandlerRegistry.html",
+          "hash": "B346x2Q0YXBmZHrfgxEOiUyi7Zx0wMKW+w4RLwTaUaM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Messages.MessageMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Messages.MessageMetadata.html",
+          "hash": "QAx+R/csJBU/kA3XZGl4knnD8yw16Keq1ofFfmtL1yA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Messages.MessageMetadataRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Messages.MessageMetadataRegistry.html",
+          "hash": "Y+5xtXfl1yABpMRwhHb/oCQI9qv7fjtU0iRf37JC04Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Messages.html",
+          "hash": "gUYjK3IdZgW/dGWUZzB2AUMg22QB0FftIvuEJmITeV4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.MessagesEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.MessagesEventArgs.html",
+          "hash": "FaEJgt9sagkqubFWNCHkHTm8xJ1Z2wBH6XpdfBhZALo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Queuing.QueueNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Queuing.QueueNotFoundException.html",
+          "hash": "zMmodCOSlMs9hCpQZtZFoT+8HBTmASE841Ho79sp3qs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Queuing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Queuing.html",
+          "hash": "xVLT8JpCl+xO/4518rNFRl1BVbN8FuMQMu9d/mUbKpY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage.html",
+          "hash": "NpjzB9gW1XFmrjBT3gCLi5j3I9jIWiLDmGRN/IpgRyQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.Subscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.Subscriber.html",
+          "hash": "qfqKPfdpDR21gcH2z5YyRV8dO0HGjgq71WpQNX5G5Og="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.html",
+          "hash": "0A4V3NLYRuZuRQQnHbwejJi5UcXohFxI6OpUygUTbFg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Subscriptions.MessageType.html",
+          "hash": "BfuzAhpv/46r5qh6jX+t2+YAzjoskfKWsa5xYkdVr8w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Subscriptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Subscriptions.html",
+          "hash": "CmxIzL+WvUreId2vJZ57GyjPC8/XCudsbkk4ABTLjVg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Transport.ControlMessageFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Transport.ControlMessageFactory.html",
+          "hash": "4RiT+urxIsZ1FuhClO26FzGiup8mhnd6KSrioCH4ydo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.Transport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.Transport.html",
+          "hash": "W/I3Y9GWJiLXgtCXFsMYLMZKersUCiTpnMpVNfb5MVA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.Unicast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.Unicast.html",
+          "hash": "bUAxrOuHUxoklTpxlshRKtI2J9YWW4jGcCs1GvtU7M0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.UnitOfWorkSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.UnitOfWorkSettings.html",
+          "hash": "heYGKeYIA200dFJtC7St9Pdt9Cb1Wh3WUTTxc7ilobo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.UnitOfWorkSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.UnitOfWorkSettingsExtensions.html",
+          "hash": "dBqDuE3xS9v5WuXjsYzFUi8rhP2BePfb4+37Njoa190="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.UnsubscribeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.UnsubscribeOptions.html",
+          "hash": "5H9TktjfjeQ6BBJy2AVJm4AUlTEzzst1io7lH4UDDns="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.UseDataBusExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.UseDataBusExtensions.html",
+          "hash": "mHRKM/gdnuPexgyAf6kECyz1TYsrqnMWjoIlECVZUUw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.XmlSerializationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.XmlSerializationExtensions.html",
+          "hash": "hbAxkL/EpZlFypE8NNsqYYSdpsbQW3z+k9x0okl35T4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.XmlSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.XmlSerializer.html",
+          "hash": "bajrfydlR4MJa9AM5DOR0TROwSFpBwUQHHeN/gEsqe4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NServiceBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NServiceBus.html",
+          "hash": "eUKDOVvEtlIjMMRcJAsww4XqmyzA2koKs0iZs9A/deo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "URfrst5KFavc5JAYjIK3NgEcdVa9zCeUPjVScnfz5Ro="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "DXxGoThv0MsF7kWHQAARErR8jsFJyL976fKnWf/RITg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "kEY8V1TvJSKVA3+S9gEmB+jf4ntMi2oumaF/7va4fWw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "NzqDKBd0t3Kkl1zEYBlaMMWtAopT4pNzrZn5IOtNiY4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "releasing.md",
+      "output": {
+        ".html": {
+          "relative_path": "releasing.html",
+          "hash": "Cc1U0CARAT0lQhBbQDVOXrRc4prUXvzV74sxOkb7vr4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

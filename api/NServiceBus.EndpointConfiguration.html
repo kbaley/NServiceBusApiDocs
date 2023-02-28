@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class EndpointConfiguration
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class EndpointConfiguration
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.EndpointConfiguration">
+
+
+  <h1 id="NServiceBus_EndpointConfiguration" data-uid="NServiceBus.EndpointConfiguration" class="text-break">Class EndpointConfiguration
+</h1>
+  <div class="markdown level0 summary"><p>Configuration used to create an endpoint instance.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><a class="xref" href="NServiceBus.Configuration.AdvancedExtensibility.ExposeSettings.html">ExposeSettings</a></div>
+    <div class="level2"><span class="xref">EndpointConfiguration</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_EndpointConfiguration_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EndpointConfiguration : ExposeSettings</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="NServiceBus_EndpointConfiguration__ctor_" data-uid="NServiceBus.EndpointConfiguration.#ctor*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration__ctor_System_String_" data-uid="NServiceBus.EndpointConfiguration.#ctor(System.String)">EndpointConfiguration(string)</h4>
+  <div class="markdown level1 summary"><p>Initializes the endpoint configuration builder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EndpointConfiguration(string endpointName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">endpointName</span></td>
+        <td><p>The name of the endpoint being configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="NServiceBus_EndpointConfiguration_Notifications_" data-uid="NServiceBus.EndpointConfiguration.Notifications*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration_Notifications" data-uid="NServiceBus.EndpointConfiguration.Notifications">Notifications</h4>
+  <div class="markdown level1 summary"><p>Access to the current endpoint <a class="xref" href="NServiceBus.EndpointConfiguration.html#NServiceBus_EndpointConfiguration_Notifications">Notifications</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Notifications Notifications { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Notifications.html">Notifications</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_EndpointConfiguration_Pipeline_" data-uid="NServiceBus.EndpointConfiguration.Pipeline*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration_Pipeline" data-uid="NServiceBus.EndpointConfiguration.Pipeline">Pipeline</h4>
+  <div class="markdown level1 summary"><p>Access to the pipeline configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PipelineSettings Pipeline { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.PipelineSettings.html">PipelineSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_EndpointConfiguration_Conventions_" data-uid="NServiceBus.EndpointConfiguration.Conventions*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration_Conventions" data-uid="NServiceBus.EndpointConfiguration.Conventions">Conventions()</h4>
+  <div class="markdown level1 summary"><p>Defines the conventions to use for this endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionsBuilder Conventions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ConventionsBuilder.html">ConventionsBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_EndpointConfiguration_RegisterComponents_" data-uid="NServiceBus.EndpointConfiguration.RegisterComponents*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration_RegisterComponents_System_Action_Microsoft_Extensions_DependencyInjection_IServiceCollection__" data-uid="NServiceBus.EndpointConfiguration.RegisterComponents(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection})">RegisterComponents(Action&lt;IServiceCollection&gt;)</h4>
+  <div class="markdown level1 summary"><p>Used to configure components in the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterComponents(Action&lt;IServiceCollection&gt; registration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span>&gt;</td>
+        <td><span class="parametername">registration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_EndpointConfiguration_SendOnly_" data-uid="NServiceBus.EndpointConfiguration.SendOnly*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration_SendOnly" data-uid="NServiceBus.EndpointConfiguration.SendOnly">SendOnly()</h4>
+  <div class="markdown level1 summary"><p>Configures the endpoint to be send-only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendOnly()</code></pre>
+  </div>
+
+
+  <a id="NServiceBus_EndpointConfiguration_UseTransport_" data-uid="NServiceBus.EndpointConfiguration.UseTransport*"></a>
+  <h4 id="NServiceBus_EndpointConfiguration_UseTransport__1___0_" data-uid="NServiceBus.EndpointConfiguration.UseTransport``1(``0)">UseTransport&lt;TTransport&gt;(TTransport)</h4>
+  <div class="markdown level1 summary"><p>Configures NServiceBus to use the given transport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoutingSettings&lt;TTransport&gt; UseTransport&lt;TTransport&gt;(TTransport transportDefinition) where TTransport : TransportDefinition</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TTransport</span></td>
+        <td><span class="parametername">transportDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.RoutingSettings-1.html">RoutingSettings</a>&lt;TTransport&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTransport</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NServiceBus.Configuration.AdvancedExtensibility.AdvancedExtensibilityExtensions.html#NServiceBus_Configuration_AdvancedExtensibility_AdvancedExtensibilityExtensions_GetSettings_NServiceBus_Configuration_AdvancedExtensibility_ExposeSettings_">AdvancedExtensibilityExtensions.GetSettings(ExposeSettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.AssemblyScannerConfigurationExtensions.html#NServiceBus_AssemblyScannerConfigurationExtensions_AssemblyScanner_NServiceBus_EndpointConfiguration_">AssemblyScannerConfigurationExtensions.AssemblyScanner(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.AutoSubscribeSettingsExtensions.html#NServiceBus_AutoSubscribeSettingsExtensions_AutoSubscribe_NServiceBus_EndpointConfiguration_">AutoSubscribeSettingsExtensions.AutoSubscribe(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConfigureAudit.html#NServiceBus_ConfigureAudit_AuditProcessedMessagesTo_NServiceBus_EndpointConfiguration_System_String_System_Nullable_System_TimeSpan__">ConfigureAudit.AuditProcessedMessagesTo(EndpointConfiguration, string, TimeSpan?)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConfigureCriticalErrorAction.html#NServiceBus_ConfigureCriticalErrorAction_DefineCriticalErrorAction_NServiceBus_EndpointConfiguration_System_Func_NServiceBus_ICriticalErrorContext_System_Threading_CancellationToken_System_Threading_Tasks_Task__">ConfigureCriticalErrorAction.DefineCriticalErrorAction(EndpointConfiguration, Func&lt;ICriticalErrorContext, CancellationToken, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConfigureError.html#NServiceBus_ConfigureError_SendFailedMessagesTo_NServiceBus_EndpointConfiguration_System_String_">ConfigureError.SendFailedMessagesTo(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConfigureLicenseExtensions.html#NServiceBus_ConfigureLicenseExtensions_License_NServiceBus_EndpointConfiguration_System_String_">ConfigureLicenseExtensions.License(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConfigureLicenseExtensions.html#NServiceBus_ConfigureLicenseExtensions_LicensePath_NServiceBus_EndpointConfiguration_System_String_">ConfigureLicenseExtensions.LicensePath(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConfigurePurging.html#NServiceBus_ConfigurePurging_PurgeOnStartup_NServiceBus_EndpointConfiguration_System_Boolean_">ConfigurePurging.PurgeOnStartup(EndpointConfiguration, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.DiagnosticSettingsExtensions.html#NServiceBus_DiagnosticSettingsExtensions_CustomDiagnosticsWriter_NServiceBus_EndpointConfiguration_System_Func_System_String_System_Threading_CancellationToken_System_Threading_Tasks_Task__">DiagnosticSettingsExtensions.CustomDiagnosticsWriter(EndpointConfiguration, Func&lt;string, CancellationToken, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.DiagnosticSettingsExtensions.html#NServiceBus_DiagnosticSettingsExtensions_SetDiagnosticsPath_NServiceBus_EndpointConfiguration_System_String_">DiagnosticSettingsExtensions.SetDiagnosticsPath(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.EndpointConfigurationExtensions.html#NServiceBus_EndpointConfigurationExtensions_DisableFeature_NServiceBus_EndpointConfiguration_System_Type_">EndpointConfigurationExtensions.DisableFeature(EndpointConfiguration, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.EndpointConfigurationExtensions.html#NServiceBus_EndpointConfigurationExtensions_DisableFeature__1_NServiceBus_EndpointConfiguration_">EndpointConfigurationExtensions.DisableFeature&lt;T&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.EndpointConfigurationExtensions.html#NServiceBus_EndpointConfigurationExtensions_EnableFeature_NServiceBus_EndpointConfiguration_System_Type_">EndpointConfigurationExtensions.EnableFeature(EndpointConfiguration, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.EndpointConfigurationExtensions.html#NServiceBus_EndpointConfigurationExtensions_EnableFeature__1_NServiceBus_EndpointConfiguration_">EndpointConfigurationExtensions.EnableFeature&lt;T&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.HostInfoConfigurationExtensions.html#NServiceBus_HostInfoConfigurationExtensions_UniquelyIdentifyRunningInstance_NServiceBus_EndpointConfiguration_">HostInfoConfigurationExtensions.UniquelyIdentifyRunningInstance(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.InstallConfigExtensions.html#NServiceBus_InstallConfigExtensions_EnableInstallers_NServiceBus_EndpointConfiguration_System_String_">InstallConfigExtensions.EnableInstallers(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.LearningTransportConfigurationExtensions.html#NServiceBus_LearningTransportConfigurationExtensions_UseTransport__1_NServiceBus_EndpointConfiguration_">LearningTransportConfigurationExtensions.UseTransport&lt;T&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.LoadMessageHandlersExtensions.html#NServiceBus_LoadMessageHandlersExtensions_ExecuteTheseHandlersFirst_NServiceBus_EndpointConfiguration_System_Collections_Generic_IEnumerable_System_Type__">LoadMessageHandlersExtensions.ExecuteTheseHandlersFirst(EndpointConfiguration, IEnumerable&lt;Type&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.LoadMessageHandlersExtensions.html#NServiceBus_LoadMessageHandlersExtensions_ExecuteTheseHandlersFirst_NServiceBus_EndpointConfiguration_System_Type___">LoadMessageHandlersExtensions.ExecuteTheseHandlersFirst(EndpointConfiguration, params Type[])</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.MessageCausationConfigurationExtensions.html#NServiceBus_MessageCausationConfigurationExtensions_CustomConversationIdStrategy_NServiceBus_EndpointConfiguration_System_Func_NServiceBus_ConversationIdStrategyContext_NServiceBus_ConversationId__">MessageCausationConfigurationExtensions.CustomConversationIdStrategy(EndpointConfiguration, Func&lt;ConversationIdStrategyContext, ConversationId&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.MessageMutator.MutatorRegistrationExtensions.html#NServiceBus_MessageMutator_MutatorRegistrationExtensions_RegisterMessageMutator_NServiceBus_EndpointConfiguration_System_Object_">MutatorRegistrationExtensions.RegisterMessageMutator(EndpointConfiguration, object)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.MessageProcessingOptimizationExtensions.html#NServiceBus_MessageProcessingOptimizationExtensions_LimitMessageProcessingConcurrencyTo_NServiceBus_EndpointConfiguration_System_Int32_">MessageProcessingOptimizationExtensions.LimitMessageProcessingConcurrencyTo(EndpointConfiguration, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.OpenTelemetryConfigurationExtensions.html#NServiceBus_OpenTelemetryConfigurationExtensions_EnableOpenTelemetry_NServiceBus_EndpointConfiguration_">OpenTelemetryConfigurationExtensions.EnableOpenTelemetry(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.OutboxConfigExtensions.html#NServiceBus_OutboxConfigExtensions_EnableOutbox_NServiceBus_EndpointConfiguration_">OutboxConfigExtensions.EnableOutbox(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.PersistenceConfig.html#NServiceBus_PersistenceConfig_UsePersistence_NServiceBus_EndpointConfiguration_System_Type_">PersistenceConfig.UsePersistence(EndpointConfiguration, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.PersistenceConfig.html#NServiceBus_PersistenceConfig_UsePersistence__1_NServiceBus_EndpointConfiguration_">PersistenceConfig.UsePersistence&lt;T&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.PersistenceConfig.html#NServiceBus_PersistenceConfig_UsePersistence__2_NServiceBus_EndpointConfiguration_">PersistenceConfig.UsePersistence&lt;T, S&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ReceiveSettingsExtensions.html#NServiceBus_ReceiveSettingsExtensions_MakeInstanceUniquelyAddressable_NServiceBus_EndpointConfiguration_System_String_">ReceiveSettingsExtensions.MakeInstanceUniquelyAddressable(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ReceiveSettingsExtensions.html#NServiceBus_ReceiveSettingsExtensions_OverrideLocalAddress_NServiceBus_EndpointConfiguration_System_String_">ReceiveSettingsExtensions.OverrideLocalAddress(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.RecoverabilityEndpointConfigurationExtensions.html#NServiceBus_RecoverabilityEndpointConfigurationExtensions_Recoverability_NServiceBus_EndpointConfiguration_">RecoverabilityEndpointConfigurationExtensions.Recoverability(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.RoutingFeatureSettingsExtensions.html#NServiceBus_RoutingFeatureSettingsExtensions_OverridePublicReturnAddress_NServiceBus_EndpointConfiguration_System_String_">RoutingFeatureSettingsExtensions.OverridePublicReturnAddress(EndpointConfiguration, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SagasConfigExtensions.html#NServiceBus_SagasConfigExtensions_Sagas_NServiceBus_EndpointConfiguration_">SagasConfigExtensions.Sagas(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SerializationConfigExtensions.html#NServiceBus_SerializationConfigExtensions_AddDeserializer__1_NServiceBus_EndpointConfiguration_">SerializationConfigExtensions.AddDeserializer&lt;T&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SerializationConfigExtensions.html#NServiceBus_SerializationConfigExtensions_AddDeserializer__1_NServiceBus_EndpointConfiguration___0_">SerializationConfigExtensions.AddDeserializer&lt;T&gt;(EndpointConfiguration, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SerializationConfigExtensions.html#NServiceBus_SerializationConfigExtensions_UseSerialization__1_NServiceBus_EndpointConfiguration_">SerializationConfigExtensions.UseSerialization&lt;T&gt;(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SerializationConfigExtensions.html#NServiceBus_SerializationConfigExtensions_UseSerialization__1_NServiceBus_EndpointConfiguration___0_">SerializationConfigExtensions.UseSerialization&lt;T&gt;(EndpointConfiguration, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.StaticHeadersConfigExtensions.html#NServiceBus_StaticHeadersConfigExtensions_AddHeaderToAllOutgoingMessages_NServiceBus_EndpointConfiguration_System_String_System_String_">StaticHeadersConfigExtensions.AddHeaderToAllOutgoingMessages(EndpointConfiguration, string, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.UnitOfWorkSettingsExtensions.html#NServiceBus_UnitOfWorkSettingsExtensions_UnitOfWork_NServiceBus_EndpointConfiguration_">UnitOfWorkSettingsExtensions.UnitOfWork(EndpointConfiguration)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.UseDataBusExtensions.html#NServiceBus_UseDataBusExtensions_UseDataBus_NServiceBus_EndpointConfiguration_System_Func_System_IServiceProvider_NServiceBus_DataBus_IDataBus__NServiceBus_DataBus_IDataBusSerializer_">UseDataBusExtensions.UseDataBus(EndpointConfiguration, Func&lt;IServiceProvider, IDataBus&gt;, IDataBusSerializer)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.UseDataBusExtensions.html#NServiceBus_UseDataBusExtensions_UseDataBus__1_NServiceBus_EndpointConfiguration_NServiceBus_DataBus_IDataBusSerializer_">UseDataBusExtensions.UseDataBus&lt;TDataBusDefinition&gt;(EndpointConfiguration, IDataBusSerializer)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.UseDataBusExtensions.html#NServiceBus_UseDataBusExtensions_UseDataBus__2_NServiceBus_EndpointConfiguration_">UseDataBusExtensions.UseDataBus&lt;TDataBusDefinition, TDataBusSerializer&gt;(EndpointConfiguration)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

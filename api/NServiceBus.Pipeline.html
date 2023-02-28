@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Namespace NServiceBus.Pipeline
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Namespace NServiceBus.Pipeline
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.Pipeline">
+
+  <h1 id="NServiceBus_Pipeline" data-uid="NServiceBus.Pipeline" class="text-break">Namespace NServiceBus.Pipeline
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+</h3>
+      <h4><a class="xref" href="NServiceBus.Pipeline.Behavior-1.html">Behavior&lt;TContext&gt;</a></h4>
+      <section><p>This is the base interface to implement to create a <a class="xref" href="NServiceBus.Pipeline.IBehavior.html">IBehavior</a> that can be registered in a pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.ForkConnector-2.html">ForkConnector&lt;TFromContext, TForkContext&gt;</a></h4>
+      <section><p>Forks into another independent pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.LogicalMessage.html">LogicalMessage</a></h4>
+      <section><p>The logical message.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.LogicalMessageFactory.html">LogicalMessageFactory</a></h4>
+      <section><p>Factory to create <a class="xref" href="NServiceBus.Pipeline.LogicalMessage.html">LogicalMessage</a>s.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.MessageHandler.html">MessageHandler</a></h4>
+      <section><p>Represents a message handler and its invocation.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.OutgoingLogicalMessage.html">OutgoingLogicalMessage</a></h4>
+      <section><p>Represents a logical message about to be push out to the transport.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.PipelineSettings.html">PipelineSettings</a></h4>
+      <section><p>Manages the pipeline configuration.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.PipelineTerminator-1.html">PipelineTerminator&lt;T&gt;</a></h4>
+      <section><p>Marks the inner most behavior of the pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.RegisterStep.html">RegisterStep</a></h4>
+      <section><p>Base class to do an advance registration of a step.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector&lt;TFromContext, TToContext&gt;</a></h4>
+      <section><p>Connects two stages of the pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.StageForkConnector-3.html">StageForkConnector&lt;TFromContext, TToContext, TForkContext&gt;</a></h4>
+      <section><p>Connects two stages of a pipeline and forks into an independent pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.TransportMessageContextExtensions.html">TransportMessageContextExtensions</a></h4>
+      <section><p>Context extension to provide access to the incoming physical message.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+</h3>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IAuditActionContext.html">IAuditActionContext</a></h4>
+      <section><p>Provides context to audit actions.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IAuditContext.html">IAuditContext</a></h4>
+      <section><p>Provide context to behaviors on the audit pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a></h4>
+      <section><p>Pipeline context for dispatching pending transport operations captured during message processing.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IBehavior.html">IBehavior</a></h4>
+      <section><p>Base interface for all behaviors.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IBehavior-2.html">IBehavior&lt;TInContext, TOutContext&gt;</a></h4>
+      <section><p>This is the base interface to implement to create a behavior that can be registered in a pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IBehaviorContext.html">IBehaviorContext</a></h4>
+      <section><p>Base interface for a pipeline behavior.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a></h4>
+      <section><p>Context for the immediate dispatch part of the pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IIncomingContext.html">IIncomingContext</a></h4>
+      <section><p>The base interface for everything after the transport receive phase.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IIncomingLogicalMessageContext.html">IIncomingLogicalMessageContext</a></h4>
+      <section><p>A context of behavior execution in logical message processing stage.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a></h4>
+      <section><p>A context of behavior execution in physical message processing stage.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IInvokeHandlerContext.html">IInvokeHandlerContext</a></h4>
+      <section><p>A context of handling a logical message by a handler.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IOutgoingContext.html">IOutgoingContext</a></h4>
+      <section><p>The base interface for everything inside the outgoing pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a></h4>
+      <section><p>Outgoing pipeline context.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html">IOutgoingPhysicalMessageContext</a></h4>
+      <section><p>Represent the part of the outgoing pipeline where the message has been serialized to a ReadOnlyMemory&gt;byte&lt;.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IOutgoingPublishContext.html">IOutgoingPublishContext</a></h4>
+      <section><p>Pipeline context for publish operations.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IOutgoingReplyContext.html">IOutgoingReplyContext</a></h4>
+      <section><p>Pipeline context for reply operations.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IOutgoingSendContext.html">IOutgoingSendContext</a></h4>
+      <section><p>Pipeline context for send operations.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IRecoverabilityActionContext.html">IRecoverabilityActionContext</a></h4>
+      <section><p>Provide context to recoverability actions.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IRecoverabilityContext.html">IRecoverabilityContext</a></h4>
+      <section><p>Provide context to behaviors on the recoverability pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a></h4>
+      <section><p>Context for the routing part of the pipeline.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.ISubscribeContext.html">ISubscribeContext</a></h4>
+      <section><p>Provides context for subscription requests.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a></h4>
+      <section><p>Context containing a physical message.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.IUnsubscribeContext.html">IUnsubscribeContext</a></h4>
+      <section><p>Provides context for unsubscribe requests.</p>
+</section>
+      <h4><a class="xref" href="NServiceBus.Pipeline.PipelineTerminator-1.ITerminatingContext.html">PipelineTerminator&lt;T&gt;.ITerminatingContext</a></h4>
+      <section><p>A well-known context that terminates the pipeline.</p>
+</section>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

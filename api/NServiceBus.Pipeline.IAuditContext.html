@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IAuditContext
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IAuditContext
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.Pipeline.IAuditContext">
+
+
+  <h1 id="NServiceBus_Pipeline_IAuditContext" data-uid="NServiceBus.Pipeline.IAuditContext" class="text-break">Interface IAuditContext
+</h1>
+  <div class="markdown level0 summary"><p>Provide context to behaviors on the audit pipeline.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NServiceBus.Pipeline.IBehaviorContext.html#NServiceBus_Pipeline_IBehaviorContext_Builder">IBehaviorContext.Builder</a>
+    </div>
+    <div>
+      <a class="xref" href="NServiceBus.ICancellableContext.html#NServiceBus_ICancellableContext_CancellationToken">ICancellableContext.CancellationToken</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a>.<a class="xref" href="NServiceBus.Pipeline.html">Pipeline</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_Pipeline_IAuditContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAuditContext : IBehaviorContext, ICancellableContext, IExtendable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="NServiceBus_Pipeline_IAuditContext_AuditAction_" data-uid="NServiceBus.Pipeline.IAuditContext.AuditAction*"></a>
+  <h4 id="NServiceBus_Pipeline_IAuditContext_AuditAction" data-uid="NServiceBus.Pipeline.IAuditContext.AuditAction">AuditAction</h4>
+  <div class="markdown level1 summary"><p>The action to take for this audit message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AuditAction AuditAction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Audit.AuditAction.html">AuditAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Pipeline_IAuditContext_AuditAddress_" data-uid="NServiceBus.Pipeline.IAuditContext.AuditAddress*"></a>
+  <h4 id="NServiceBus_Pipeline_IAuditContext_AuditAddress" data-uid="NServiceBus.Pipeline.IAuditContext.AuditAddress">AuditAddress</h4>
+  <div class="markdown level1 summary"><p>Address of the audit queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string AuditAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Pipeline_IAuditContext_AuditMetadata_" data-uid="NServiceBus.Pipeline.IAuditContext.AuditMetadata*"></a>
+  <h4 id="NServiceBus_Pipeline_IAuditContext_AuditMetadata" data-uid="NServiceBus.Pipeline.IAuditContext.AuditMetadata">AuditMetadata</h4>
+  <div class="markdown level1 summary"><p>Metadata for the audited message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Dictionary&lt;string, string&gt; AuditMetadata { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Pipeline_IAuditContext_Message_" data-uid="NServiceBus.Pipeline.IAuditContext.Message*"></a>
+  <h4 id="NServiceBus_Pipeline_IAuditContext_Message" data-uid="NServiceBus.Pipeline.IAuditContext.Message">Message</h4>
+  <div class="markdown level1 summary"><p>The message to be audited.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">OutgoingMessage Message { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.OutgoingMessage.html">OutgoingMessage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Pipeline_IAuditContext_TimeToBeReceived_" data-uid="NServiceBus.Pipeline.IAuditContext.TimeToBeReceived*"></a>
+  <h4 id="NServiceBus_Pipeline_IAuditContext_TimeToBeReceived" data-uid="NServiceBus.Pipeline.IAuditContext.TimeToBeReceived">TimeToBeReceived</h4>
+  <div class="markdown level1 summary"><p>The configured time to be received for audit messages.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeSpan? TimeToBeReceived { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_Pipeline_IAuditContext_PreventChanges_" data-uid="NServiceBus.Pipeline.IAuditContext.PreventChanges*"></a>
+  <h4 id="NServiceBus_Pipeline_IAuditContext_PreventChanges" data-uid="NServiceBus.Pipeline.IAuditContext.PreventChanges">PreventChanges()</h4>
+  <div class="markdown level1 summary"><p>Locks the context for further changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAuditActionContext PreventChanges()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IAuditActionContext.html">IAuditActionContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

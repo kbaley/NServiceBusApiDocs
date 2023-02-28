@@ -1,0 +1,1054 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class ConnectorContextExtensions
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class ConnectorContextExtensions
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.ConnectorContextExtensions">
+
+
+  <h1 id="NServiceBus_ConnectorContextExtensions" data-uid="NServiceBus.ConnectorContextExtensions" class="text-break">Class ConnectorContextExtensions
+</h1>
+  <div class="markdown level0 summary"><p>Contains extensions methods to map behavior contexts.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">ConnectorContextExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_ConnectorContextExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ConnectorContextExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateAuditContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateAuditContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateAuditContext_NServiceBus_Pipeline_ForkConnector_NServiceBus_Pipeline_IIncomingPhysicalMessageContext_NServiceBus_Pipeline_IAuditContext__NServiceBus_Transport_OutgoingMessage_System_String_System_Nullable_System_TimeSpan__NServiceBus_Pipeline_IIncomingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateAuditContext(NServiceBus.Pipeline.ForkConnector{NServiceBus.Pipeline.IIncomingPhysicalMessageContext,NServiceBus.Pipeline.IAuditContext},NServiceBus.Transport.OutgoingMessage,System.String,System.Nullable{System.TimeSpan},NServiceBus.Pipeline.IIncomingPhysicalMessageContext)">CreateAuditContext(ForkConnector&lt;IIncomingPhysicalMessageContext, IAuditContext&gt;, OutgoingMessage, string, TimeSpan?, IIncomingPhysicalMessageContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IAuditContext.html">IAuditContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAuditContext CreateAuditContext(this ForkConnector&lt;IIncomingPhysicalMessageContext, IAuditContext&gt; forkConnector, OutgoingMessage message, string auditAddress, TimeSpan? timeToBeReceived, IIncomingPhysicalMessageContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.ForkConnector-2.html">ForkConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IAuditContext.html">IAuditContext</a>&gt;</td>
+        <td><span class="parametername">forkConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.OutgoingMessage.html">OutgoingMessage</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">auditAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span>?</td>
+        <td><span class="parametername">timeToBeReceived</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IAuditContext.html">IAuditContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateBatchDispatchContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateBatchDispatchContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateBatchDispatchContext_NServiceBus_Pipeline_StageForkConnector_NServiceBus_Pipeline_ITransportReceiveContext_NServiceBus_Pipeline_IIncomingPhysicalMessageContext_NServiceBus_Pipeline_IBatchDispatchContext__System_Collections_Generic_IReadOnlyCollection_NServiceBus_Transport_TransportOperation__NServiceBus_Pipeline_IIncomingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateBatchDispatchContext(NServiceBus.Pipeline.StageForkConnector{NServiceBus.Pipeline.ITransportReceiveContext,NServiceBus.Pipeline.IIncomingPhysicalMessageContext,NServiceBus.Pipeline.IBatchDispatchContext},System.Collections.Generic.IReadOnlyCollection{NServiceBus.Transport.TransportOperation},NServiceBus.Pipeline.IIncomingPhysicalMessageContext)">CreateBatchDispatchContext(StageForkConnector&lt;ITransportReceiveContext, IIncomingPhysicalMessageContext, IBatchDispatchContext&gt;, IReadOnlyCollection&lt;TransportOperation&gt;, IIncomingPhysicalMessageContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IBatchDispatchContext CreateBatchDispatchContext(this StageForkConnector&lt;ITransportReceiveContext, IIncomingPhysicalMessageContext, IBatchDispatchContext&gt; stageForkConnector, IReadOnlyCollection&lt;TransportOperation&gt; transportOperations, IIncomingPhysicalMessageContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageForkConnector-3.html">StageForkConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a>, <a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a>&gt;</td>
+        <td><span class="parametername">stageForkConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Transport.TransportOperation.html">TransportOperation</a>&gt;</td>
+        <td><span class="parametername">transportOperations</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateDispatchContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateDispatchContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateDispatchContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IBatchDispatchContext_NServiceBus_Pipeline_IDispatchContext__System_Collections_Generic_IReadOnlyCollection_NServiceBus_Transport_TransportOperation__NServiceBus_Pipeline_IBatchDispatchContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateDispatchContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IBatchDispatchContext,NServiceBus.Pipeline.IDispatchContext},System.Collections.Generic.IReadOnlyCollection{NServiceBus.Transport.TransportOperation},NServiceBus.Pipeline.IBatchDispatchContext)">CreateDispatchContext(StageConnector&lt;IBatchDispatchContext, IDispatchContext&gt;, IReadOnlyCollection&lt;TransportOperation&gt;, IBatchDispatchContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDispatchContext CreateDispatchContext(this StageConnector&lt;IBatchDispatchContext, IDispatchContext&gt; stageConnector, IReadOnlyCollection&lt;TransportOperation&gt; transportOperations, IBatchDispatchContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a>, <a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Transport.TransportOperation.html">TransportOperation</a>&gt;</td>
+        <td><span class="parametername">transportOperations</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateDispatchContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateDispatchContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateDispatchContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IRoutingContext_NServiceBus_Pipeline_IDispatchContext__System_Collections_Generic_IReadOnlyCollection_NServiceBus_Transport_TransportOperation__NServiceBus_Pipeline_IRoutingContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateDispatchContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IRoutingContext,NServiceBus.Pipeline.IDispatchContext},System.Collections.Generic.IReadOnlyCollection{NServiceBus.Transport.TransportOperation},NServiceBus.Pipeline.IRoutingContext)">CreateDispatchContext(StageConnector&lt;IRoutingContext, IDispatchContext&gt;, IReadOnlyCollection&lt;TransportOperation&gt;, IRoutingContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDispatchContext CreateDispatchContext(this StageConnector&lt;IRoutingContext, IDispatchContext&gt; stageConnector, IReadOnlyCollection&lt;TransportOperation&gt; transportOperations, IRoutingContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a>, <a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Transport.TransportOperation.html">TransportOperation</a>&gt;</td>
+        <td><span class="parametername">transportOperations</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IDispatchContext.html">IDispatchContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateIncomingLogicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateIncomingLogicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateIncomingLogicalMessageContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IIncomingPhysicalMessageContext_NServiceBus_Pipeline_IIncomingLogicalMessageContext__NServiceBus_Pipeline_LogicalMessage_NServiceBus_Pipeline_IIncomingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateIncomingLogicalMessageContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IIncomingPhysicalMessageContext,NServiceBus.Pipeline.IIncomingLogicalMessageContext},NServiceBus.Pipeline.LogicalMessage,NServiceBus.Pipeline.IIncomingPhysicalMessageContext)">CreateIncomingLogicalMessageContext(StageConnector&lt;IIncomingPhysicalMessageContext, IIncomingLogicalMessageContext&gt;, LogicalMessage, IIncomingPhysicalMessageContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IIncomingLogicalMessageContext.html">IIncomingLogicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIncomingLogicalMessageContext CreateIncomingLogicalMessageContext(this StageConnector&lt;IIncomingPhysicalMessageContext, IIncomingLogicalMessageContext&gt; stageConnector, LogicalMessage logicalMessage, IIncomingPhysicalMessageContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IIncomingLogicalMessageContext.html">IIncomingLogicalMessageContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.LogicalMessage.html">LogicalMessage</a></td>
+        <td><span class="parametername">logicalMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingLogicalMessageContext.html">IIncomingLogicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateIncomingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateIncomingPhysicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateIncomingPhysicalMessageContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_ITransportReceiveContext_NServiceBus_Pipeline_IIncomingPhysicalMessageContext__NServiceBus_Transport_IncomingMessage_NServiceBus_Pipeline_ITransportReceiveContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateIncomingPhysicalMessageContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.ITransportReceiveContext,NServiceBus.Pipeline.IIncomingPhysicalMessageContext},NServiceBus.Transport.IncomingMessage,NServiceBus.Pipeline.ITransportReceiveContext)">CreateIncomingPhysicalMessageContext(StageConnector&lt;ITransportReceiveContext, IIncomingPhysicalMessageContext&gt;, IncomingMessage, ITransportReceiveContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIncomingPhysicalMessageContext CreateIncomingPhysicalMessageContext(this StageConnector&lt;ITransportReceiveContext, IIncomingPhysicalMessageContext&gt; stageConnector, IncomingMessage incomingMessage, ITransportReceiveContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a>, <a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.IncomingMessage.html">IncomingMessage</a></td>
+        <td><span class="parametername">incomingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateIncomingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateIncomingPhysicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateIncomingPhysicalMessageContext_NServiceBus_Pipeline_StageForkConnector_NServiceBus_Pipeline_ITransportReceiveContext_NServiceBus_Pipeline_IIncomingPhysicalMessageContext_NServiceBus_Pipeline_IBatchDispatchContext__NServiceBus_Transport_IncomingMessage_NServiceBus_Pipeline_ITransportReceiveContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateIncomingPhysicalMessageContext(NServiceBus.Pipeline.StageForkConnector{NServiceBus.Pipeline.ITransportReceiveContext,NServiceBus.Pipeline.IIncomingPhysicalMessageContext,NServiceBus.Pipeline.IBatchDispatchContext},NServiceBus.Transport.IncomingMessage,NServiceBus.Pipeline.ITransportReceiveContext)">CreateIncomingPhysicalMessageContext(StageForkConnector&lt;ITransportReceiveContext, IIncomingPhysicalMessageContext, IBatchDispatchContext&gt;, IncomingMessage, ITransportReceiveContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIncomingPhysicalMessageContext CreateIncomingPhysicalMessageContext(this StageForkConnector&lt;ITransportReceiveContext, IIncomingPhysicalMessageContext, IBatchDispatchContext&gt; stageForkConnector, IncomingMessage incomingMessage, ITransportReceiveContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageForkConnector-3.html">StageForkConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a>, <a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IBatchDispatchContext.html">IBatchDispatchContext</a>&gt;</td>
+        <td><span class="parametername">stageForkConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.IncomingMessage.html">IncomingMessage</a></td>
+        <td><span class="parametername">incomingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingPhysicalMessageContext.html">IIncomingPhysicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateInvokeHandlerContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateInvokeHandlerContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateInvokeHandlerContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IIncomingLogicalMessageContext_NServiceBus_Pipeline_IInvokeHandlerContext__NServiceBus_Pipeline_MessageHandler_NServiceBus_Persistence_ICompletableSynchronizedStorageSession_NServiceBus_Pipeline_IIncomingLogicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateInvokeHandlerContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IIncomingLogicalMessageContext,NServiceBus.Pipeline.IInvokeHandlerContext},NServiceBus.Pipeline.MessageHandler,NServiceBus.Persistence.ICompletableSynchronizedStorageSession,NServiceBus.Pipeline.IIncomingLogicalMessageContext)">CreateInvokeHandlerContext(StageConnector&lt;IIncomingLogicalMessageContext, IInvokeHandlerContext&gt;, MessageHandler, ICompletableSynchronizedStorageSession, IIncomingLogicalMessageContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IInvokeHandlerContext.html">IInvokeHandlerContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IInvokeHandlerContext CreateInvokeHandlerContext(this StageConnector&lt;IIncomingLogicalMessageContext, IInvokeHandlerContext&gt; stageConnector, MessageHandler messageHandler, ICompletableSynchronizedStorageSession storageSession, IIncomingLogicalMessageContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IIncomingLogicalMessageContext.html">IIncomingLogicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IInvokeHandlerContext.html">IInvokeHandlerContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.MessageHandler.html">MessageHandler</a></td>
+        <td><span class="parametername">messageHandler</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Persistence.ICompletableSynchronizedStorageSession.html">ICompletableSynchronizedStorageSession</a></td>
+        <td><span class="parametername">storageSession</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IIncomingLogicalMessageContext.html">IIncomingLogicalMessageContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IInvokeHandlerContext.html">IInvokeHandlerContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateOutgoingLogicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingLogicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateOutgoingLogicalMessageContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IOutgoingPublishContext_NServiceBus_Pipeline_IOutgoingLogicalMessageContext__NServiceBus_Pipeline_OutgoingLogicalMessage_System_Collections_Generic_IReadOnlyCollection_NServiceBus_Routing_RoutingStrategy__NServiceBus_Pipeline_IOutgoingPublishContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingLogicalMessageContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IOutgoingPublishContext,NServiceBus.Pipeline.IOutgoingLogicalMessageContext},NServiceBus.Pipeline.OutgoingLogicalMessage,System.Collections.Generic.IReadOnlyCollection{NServiceBus.Routing.RoutingStrategy},NServiceBus.Pipeline.IOutgoingPublishContext)">CreateOutgoingLogicalMessageContext(StageConnector&lt;IOutgoingPublishContext, IOutgoingLogicalMessageContext&gt;, OutgoingLogicalMessage, IReadOnlyCollection&lt;RoutingStrategy&gt;, IOutgoingPublishContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOutgoingLogicalMessageContext CreateOutgoingLogicalMessageContext(this StageConnector&lt;IOutgoingPublishContext, IOutgoingLogicalMessageContext&gt; stageConnector, OutgoingLogicalMessage outgoingMessage, IReadOnlyCollection&lt;RoutingStrategy&gt; routingStrategies, IOutgoingPublishContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IOutgoingPublishContext.html">IOutgoingPublishContext</a>, <a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.OutgoingLogicalMessage.html">OutgoingLogicalMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a>&gt;</td>
+        <td><span class="parametername">routingStrategies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingPublishContext.html">IOutgoingPublishContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateOutgoingLogicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingLogicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateOutgoingLogicalMessageContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IOutgoingReplyContext_NServiceBus_Pipeline_IOutgoingLogicalMessageContext__NServiceBus_Pipeline_OutgoingLogicalMessage_System_Collections_Generic_IReadOnlyCollection_NServiceBus_Routing_RoutingStrategy__NServiceBus_Pipeline_IOutgoingReplyContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingLogicalMessageContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IOutgoingReplyContext,NServiceBus.Pipeline.IOutgoingLogicalMessageContext},NServiceBus.Pipeline.OutgoingLogicalMessage,System.Collections.Generic.IReadOnlyCollection{NServiceBus.Routing.RoutingStrategy},NServiceBus.Pipeline.IOutgoingReplyContext)">CreateOutgoingLogicalMessageContext(StageConnector&lt;IOutgoingReplyContext, IOutgoingLogicalMessageContext&gt;, OutgoingLogicalMessage, IReadOnlyCollection&lt;RoutingStrategy&gt;, IOutgoingReplyContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOutgoingLogicalMessageContext CreateOutgoingLogicalMessageContext(this StageConnector&lt;IOutgoingReplyContext, IOutgoingLogicalMessageContext&gt; stageConnector, OutgoingLogicalMessage outgoingMessage, IReadOnlyCollection&lt;RoutingStrategy&gt; routingStrategies, IOutgoingReplyContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IOutgoingReplyContext.html">IOutgoingReplyContext</a>, <a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.OutgoingLogicalMessage.html">OutgoingLogicalMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a>&gt;</td>
+        <td><span class="parametername">routingStrategies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingReplyContext.html">IOutgoingReplyContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateOutgoingLogicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingLogicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateOutgoingLogicalMessageContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IOutgoingSendContext_NServiceBus_Pipeline_IOutgoingLogicalMessageContext__NServiceBus_Pipeline_OutgoingLogicalMessage_System_Collections_Generic_IReadOnlyCollection_NServiceBus_Routing_RoutingStrategy__NServiceBus_Pipeline_IOutgoingSendContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingLogicalMessageContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IOutgoingSendContext,NServiceBus.Pipeline.IOutgoingLogicalMessageContext},NServiceBus.Pipeline.OutgoingLogicalMessage,System.Collections.Generic.IReadOnlyCollection{NServiceBus.Routing.RoutingStrategy},NServiceBus.Pipeline.IOutgoingSendContext)">CreateOutgoingLogicalMessageContext(StageConnector&lt;IOutgoingSendContext, IOutgoingLogicalMessageContext&gt;, OutgoingLogicalMessage, IReadOnlyCollection&lt;RoutingStrategy&gt;, IOutgoingSendContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOutgoingLogicalMessageContext CreateOutgoingLogicalMessageContext(this StageConnector&lt;IOutgoingSendContext, IOutgoingLogicalMessageContext&gt; stageConnector, OutgoingLogicalMessage outgoingMessage, IReadOnlyCollection&lt;RoutingStrategy&gt; routingStrategies, IOutgoingSendContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IOutgoingSendContext.html">IOutgoingSendContext</a>, <a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.OutgoingLogicalMessage.html">OutgoingLogicalMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a>&gt;</td>
+        <td><span class="parametername">routingStrategies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingSendContext.html">IOutgoingSendContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateOutgoingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingPhysicalMessageContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateOutgoingPhysicalMessageContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IOutgoingLogicalMessageContext_NServiceBus_Pipeline_IOutgoingPhysicalMessageContext__System_ReadOnlyMemory_System_Byte__System_Collections_Generic_IReadOnlyCollection_NServiceBus_Routing_RoutingStrategy__NServiceBus_Pipeline_IOutgoingLogicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateOutgoingPhysicalMessageContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IOutgoingLogicalMessageContext,NServiceBus.Pipeline.IOutgoingPhysicalMessageContext},System.ReadOnlyMemory{System.Byte},System.Collections.Generic.IReadOnlyCollection{NServiceBus.Routing.RoutingStrategy},NServiceBus.Pipeline.IOutgoingLogicalMessageContext)">CreateOutgoingPhysicalMessageContext(StageConnector&lt;IOutgoingLogicalMessageContext, IOutgoingPhysicalMessageContext&gt;, ReadOnlyMemory&lt;byte&gt;, IReadOnlyCollection&lt;RoutingStrategy&gt;, IOutgoingLogicalMessageContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html">IOutgoingPhysicalMessageContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOutgoingPhysicalMessageContext CreateOutgoingPhysicalMessageContext(this StageConnector&lt;IOutgoingLogicalMessageContext, IOutgoingPhysicalMessageContext&gt; stageConnector, ReadOnlyMemory&lt;byte&gt; messageBody, IReadOnlyCollection&lt;RoutingStrategy&gt; routingStrategies, IOutgoingLogicalMessageContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html">IOutgoingPhysicalMessageContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlyMemory&lt;T&gt;</span>&lt;<span class="xref">byte</span>&gt;</td>
+        <td><span class="parametername">messageBody</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a>&gt;</td>
+        <td><span class="parametername">routingStrategies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingLogicalMessageContext.html">IOutgoingLogicalMessageContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html">IOutgoingPhysicalMessageContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_NServiceBus_Pipeline_ForkConnector_NServiceBus_Pipeline_ITransportReceiveContext_NServiceBus_Pipeline_IRoutingContext__NServiceBus_Transport_OutgoingMessage_System_String_NServiceBus_Pipeline_ITransportReceiveContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext(NServiceBus.Pipeline.ForkConnector{NServiceBus.Pipeline.ITransportReceiveContext,NServiceBus.Pipeline.IRoutingContext},NServiceBus.Transport.OutgoingMessage,System.String,NServiceBus.Pipeline.ITransportReceiveContext)">CreateRoutingContext(ForkConnector&lt;ITransportReceiveContext, IRoutingContext&gt;, OutgoingMessage, string, ITransportReceiveContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IRoutingContext CreateRoutingContext(this ForkConnector&lt;ITransportReceiveContext, IRoutingContext&gt; forkConnector, OutgoingMessage outgoingMessage, string localAddress, ITransportReceiveContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.ForkConnector-2.html">ForkConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a>, <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a>&gt;</td>
+        <td><span class="parametername">forkConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.OutgoingMessage.html">OutgoingMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">localAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.ITransportReceiveContext.html">ITransportReceiveContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IAuditContext_NServiceBus_Pipeline_IRoutingContext__NServiceBus_Transport_OutgoingMessage_NServiceBus_Routing_RoutingStrategy_NServiceBus_Pipeline_IAuditContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IAuditContext,NServiceBus.Pipeline.IRoutingContext},NServiceBus.Transport.OutgoingMessage,NServiceBus.Routing.RoutingStrategy,NServiceBus.Pipeline.IAuditContext)">CreateRoutingContext(StageConnector&lt;IAuditContext, IRoutingContext&gt;, OutgoingMessage, RoutingStrategy, IAuditContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IRoutingContext CreateRoutingContext(this StageConnector&lt;IAuditContext, IRoutingContext&gt; stageConnector, OutgoingMessage outgoingMessage, RoutingStrategy routingStrategy, IAuditContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IAuditContext.html">IAuditContext</a>, <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.OutgoingMessage.html">OutgoingMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a></td>
+        <td><span class="parametername">routingStrategy</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IAuditContext.html">IAuditContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IForwardingContext_NServiceBus_Pipeline_IRoutingContext__NServiceBus_Transport_OutgoingMessage_NServiceBus_Routing_RoutingStrategy_NServiceBus_Pipeline_IForwardingContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IForwardingContext,NServiceBus.Pipeline.IRoutingContext},NServiceBus.Transport.OutgoingMessage,NServiceBus.Routing.RoutingStrategy,NServiceBus.Pipeline.IForwardingContext)">CreateRoutingContext(StageConnector&lt;IForwardingContext, IRoutingContext&gt;, OutgoingMessage, RoutingStrategy, IForwardingContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IRoutingContext CreateRoutingContext(this StageConnector&lt;IForwardingContext, IRoutingContext&gt; stageConnector, OutgoingMessage outgoingMessage, RoutingStrategy routingStrategy, IForwardingContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<span class="xref">NServiceBus.Pipeline.IForwardingContext</span>, <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.OutgoingMessage.html">OutgoingMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a></td>
+        <td><span class="parametername">routingStrategy</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">NServiceBus.Pipeline.IForwardingContext</span></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext*"></a>
+  <h4 id="NServiceBus_ConnectorContextExtensions_CreateRoutingContext_NServiceBus_Pipeline_StageConnector_NServiceBus_Pipeline_IOutgoingPhysicalMessageContext_NServiceBus_Pipeline_IRoutingContext__NServiceBus_Transport_OutgoingMessage_System_Collections_Generic_IReadOnlyCollection_NServiceBus_Routing_RoutingStrategy__NServiceBus_Pipeline_IOutgoingPhysicalMessageContext_" data-uid="NServiceBus.ConnectorContextExtensions.CreateRoutingContext(NServiceBus.Pipeline.StageConnector{NServiceBus.Pipeline.IOutgoingPhysicalMessageContext,NServiceBus.Pipeline.IRoutingContext},NServiceBus.Transport.OutgoingMessage,System.Collections.Generic.IReadOnlyCollection{NServiceBus.Routing.RoutingStrategy},NServiceBus.Pipeline.IOutgoingPhysicalMessageContext)">CreateRoutingContext(StageConnector&lt;IOutgoingPhysicalMessageContext, IRoutingContext&gt;, OutgoingMessage, IReadOnlyCollection&lt;RoutingStrategy&gt;, IOutgoingPhysicalMessageContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a> based on the current context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IRoutingContext CreateRoutingContext(this StageConnector&lt;IOutgoingPhysicalMessageContext, IRoutingContext&gt; stageConnector, OutgoingMessage outgoingMessage, IReadOnlyCollection&lt;RoutingStrategy&gt; routingStrategies, IOutgoingPhysicalMessageContext sourceContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.StageConnector-2.html">StageConnector</a>&lt;<a class="xref" href="NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html">IOutgoingPhysicalMessageContext</a>, <a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a>&gt;</td>
+        <td><span class="parametername">stageConnector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.OutgoingMessage.html">OutgoingMessage</a></td>
+        <td><span class="parametername">outgoingMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Routing.RoutingStrategy.html">RoutingStrategy</a>&gt;</td>
+        <td><span class="parametername">routingStrategies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IOutgoingPhysicalMessageContext.html">IOutgoingPhysicalMessageContext</a></td>
+        <td><span class="parametername">sourceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class FeatureConfigurationContext
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class FeatureConfigurationContext
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.Features.FeatureConfigurationContext">
+
+
+  <h1 id="NServiceBus_Features_FeatureConfigurationContext" data-uid="NServiceBus.Features.FeatureConfigurationContext" class="text-break">Class FeatureConfigurationContext
+</h1>
+  <div class="markdown level0 summary"><p>The context available to features when they are activated.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">FeatureConfigurationContext</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a>.<a class="xref" href="NServiceBus.Features.html">Features</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_Features_FeatureConfigurationContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FeatureConfigurationContext</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_Pipeline_" data-uid="NServiceBus.Features.FeatureConfigurationContext.Pipeline*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_Pipeline" data-uid="NServiceBus.Features.FeatureConfigurationContext.Pipeline">Pipeline</h4>
+  <div class="markdown level1 summary"><p>Access to the pipeline in order to customize it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PipelineSettings Pipeline { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.PipelineSettings.html">PipelineSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_Services_" data-uid="NServiceBus.Features.FeatureConfigurationContext.Services*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_Services" data-uid="NServiceBus.Features.FeatureConfigurationContext.Services">Services</h4>
+  <div class="markdown level1 summary"><p>Access to the <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span> to allow additional service registrations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServiceCollection Services { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_Settings_" data-uid="NServiceBus.Features.FeatureConfigurationContext.Settings*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_Settings" data-uid="NServiceBus.Features.FeatureConfigurationContext.Settings">Settings</h4>
+  <div class="markdown level1 summary"><p>A read only copy of the settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlySettings Settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Settings.IReadOnlySettings.html">IReadOnlySettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_AddSatelliteReceiver_" data-uid="NServiceBus.Features.FeatureConfigurationContext.AddSatelliteReceiver*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_AddSatelliteReceiver_System_String_NServiceBus_Transport_QueueAddress_NServiceBus_Transport_PushRuntimeSettings_System_Func_NServiceBus_RecoverabilityConfig_NServiceBus_Transport_ErrorContext_NServiceBus_RecoverabilityAction__NServiceBus_OnSatelliteMessage_" data-uid="NServiceBus.Features.FeatureConfigurationContext.AddSatelliteReceiver(System.String,NServiceBus.Transport.QueueAddress,NServiceBus.Transport.PushRuntimeSettings,System.Func{NServiceBus.RecoverabilityConfig,NServiceBus.Transport.ErrorContext,NServiceBus.RecoverabilityAction},NServiceBus.OnSatelliteMessage)">AddSatelliteReceiver(string, QueueAddress, PushRuntimeSettings, Func&lt;RecoverabilityConfig, ErrorContext, RecoverabilityAction&gt;, OnSatelliteMessage)</h4>
+  <div class="markdown level1 summary"><p>Adds a new satellite receiver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSatelliteReceiver(string name, QueueAddress transportAddress, PushRuntimeSettings runtimeSettings, Func&lt;RecoverabilityConfig, ErrorContext, RecoverabilityAction&gt; recoverabilityPolicy, OnSatelliteMessage onMessage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the satellite.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.QueueAddress.html">QueueAddress</a></td>
+        <td><span class="parametername">transportAddress</span></td>
+        <td><p>The autogenerated transport address to listen on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.PushRuntimeSettings.html">PushRuntimeSettings</a></td>
+        <td><span class="parametername">runtimeSettings</span></td>
+        <td><p>Transport runtime settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func&lt;T1, T2, TResult&gt;</span>&lt;<a class="xref" href="NServiceBus.RecoverabilityConfig.html">RecoverabilityConfig</a>, <a class="xref" href="NServiceBus.Transport.ErrorContext.html">ErrorContext</a>, <a class="xref" href="NServiceBus.RecoverabilityAction.html">RecoverabilityAction</a>&gt;</td>
+        <td><span class="parametername">recoverabilityPolicy</span></td>
+        <td><p>Recoverability policy to be if processing fails.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.OnSatelliteMessage.html">OnSatelliteMessage</a></td>
+        <td><span class="parametername">onMessage</span></td>
+        <td><p>The message func.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask_" data-uid="NServiceBus.Features.FeatureConfigurationContext.RegisterStartupTask*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask__1___0_" data-uid="NServiceBus.Features.FeatureConfigurationContext.RegisterStartupTask``1(``0)">RegisterStartupTask&lt;TTask&gt;(TTask)</h4>
+  <div class="markdown level1 summary"><p>Registers an instance of a feature startup task.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterStartupTask&lt;TTask&gt;(TTask startupTask) where TTask : FeatureStartupTask</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TTask</span></td>
+        <td><span class="parametername">startupTask</span></td>
+        <td><p>A startup task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask_" data-uid="NServiceBus.Features.FeatureConfigurationContext.RegisterStartupTask*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask__1_System_Func___0__" data-uid="NServiceBus.Features.FeatureConfigurationContext.RegisterStartupTask``1(System.Func{``0})">RegisterStartupTask&lt;TTask&gt;(Func&lt;TTask&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a startup task factory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterStartupTask&lt;TTask&gt;(Func&lt;TTask&gt; startupTaskFactory) where TTask : FeatureStartupTask</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func&lt;TResult&gt;</span>&lt;TTask&gt;</td>
+        <td><span class="parametername">startupTaskFactory</span></td>
+        <td><p>A startup task factory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask_" data-uid="NServiceBus.Features.FeatureConfigurationContext.RegisterStartupTask*"></a>
+  <h4 id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask__1_System_Func_System_IServiceProvider___0__" data-uid="NServiceBus.Features.FeatureConfigurationContext.RegisterStartupTask``1(System.Func{System.IServiceProvider,``0})">RegisterStartupTask&lt;TTask&gt;(Func&lt;IServiceProvider, TTask&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a startup task factory which gets access to the builder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterStartupTask&lt;TTask&gt;(Func&lt;IServiceProvider, TTask&gt; startupTaskFactory) where TTask : FeatureStartupTask</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;<span class="xref">System.IServiceProvider</span>, TTask&gt;</td>
+        <td><span class="parametername">startupTaskFactory</span></td>
+        <td><p>A startup task factory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NServiceBus_Features_FeatureConfigurationContext_RegisterStartupTask__1_System_Func_System_IServiceProvider___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Should only be used when really necessary. Usually a design smell.</p>
+</div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NServiceBus.ReceiveFeatureConfigurationContextExtensions.html#NServiceBus_ReceiveFeatureConfigurationContextExtensions_InstanceSpecificQueueAddress_NServiceBus_Features_FeatureConfigurationContext_">ReceiveFeatureConfigurationContextExtensions.InstanceSpecificQueueAddress(FeatureConfigurationContext)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ReceiveFeatureConfigurationContextExtensions.html#NServiceBus_ReceiveFeatureConfigurationContextExtensions_LocalQueueAddress_NServiceBus_Features_FeatureConfigurationContext_">ReceiveFeatureConfigurationContextExtensions.LocalQueueAddress(FeatureConfigurationContext)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

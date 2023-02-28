@@ -1,0 +1,618 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class Feature
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class Feature
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.Features.Feature">
+
+
+  <h1 id="NServiceBus_Features_Feature" data-uid="NServiceBus.Features.Feature" class="text-break">Class Feature
+</h1>
+  <div class="markdown level0 summary"><p>Used to control the various features supported by the framework.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">Feature</span></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.Audit.html">Audit</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.AutoSubscribe.html">AutoSubscribe</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.DataBus.html">DataBus</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.Outbox.html">Outbox</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.PlatformRetryNotifications.html">PlatformRetryNotifications</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.Sagas.html">Sagas</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Features.SynchronizedStorage.html">SynchronizedStorage</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a>.<a class="xref" href="NServiceBus.Features.html">Features</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_Features_Feature_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Feature</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="NServiceBus_Features_Feature__ctor_" data-uid="NServiceBus.Features.Feature.#ctor*"></a>
+  <h4 id="NServiceBus_Features_Feature__ctor" data-uid="NServiceBus.Features.Feature.#ctor">Feature()</h4>
+  <div class="markdown level1 summary"><p>Creates an instance of <a class="xref" href="NServiceBus.Features.Feature.html">Feature</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Feature()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="NServiceBus_Features_Feature_IsActive_" data-uid="NServiceBus.Features.Feature.IsActive*"></a>
+  <h4 id="NServiceBus_Features_Feature_IsActive" data-uid="NServiceBus.Features.Feature.IsActive">IsActive</h4>
+  <div class="markdown level1 summary"><p>Indicates that the feature is active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_IsEnabledByDefault_" data-uid="NServiceBus.Features.Feature.IsEnabledByDefault*"></a>
+  <h4 id="NServiceBus_Features_Feature_IsEnabledByDefault" data-uid="NServiceBus.Features.Feature.IsEnabledByDefault">IsEnabledByDefault</h4>
+  <div class="markdown level1 summary"><p>Tells if this feature is enabled by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnabledByDefault { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_Name_" data-uid="NServiceBus.Features.Feature.Name*"></a>
+  <h4 id="NServiceBus_Features_Feature_Name" data-uid="NServiceBus.Features.Feature.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Feature name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_Version_" data-uid="NServiceBus.Features.Feature.Version*"></a>
+  <h4 id="NServiceBus_Features_Feature_Version" data-uid="NServiceBus.Features.Feature.Version">Version</h4>
+  <div class="markdown level1 summary"><p>The version for this feature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Version { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_Features_Feature_Defaults_" data-uid="NServiceBus.Features.Feature.Defaults*"></a>
+  <h4 id="NServiceBus_Features_Feature_Defaults_System_Action_NServiceBus_Settings_SettingsHolder__" data-uid="NServiceBus.Features.Feature.Defaults(System.Action{NServiceBus.Settings.SettingsHolder})">Defaults(Action&lt;SettingsHolder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers default settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Defaults(Action&lt;SettingsHolder&gt; settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Settings.SettingsHolder.html">SettingsHolder</a>&gt;</td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings holder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOn_" data-uid="NServiceBus.Features.Feature.DependsOn*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOn_System_String_" data-uid="NServiceBus.Features.Feature.DependsOn(System.String)">DependsOn(string)</h4>
+  <div class="markdown level1 summary"><p>Registers this feature as depending on the given feature. This means that this feature won't be activated unless
+the dependent feature is active. This also causes this feature to be activated after the other feature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOn(string featureTypeName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">featureTypeName</span></td>
+        <td><p>The <span class="xref">System.Type.FullName</span> of the feature that this feature depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOn_" data-uid="NServiceBus.Features.Feature.DependsOn*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOn__1" data-uid="NServiceBus.Features.Feature.DependsOn``1">DependsOn&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Registers this feature as depending on the given feature. This means that this feature won't be activated unless
+the dependent feature is active.
+This also causes this feature to be activated after the other feature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOn&lt;T&gt;() where T : Feature</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Feature that this feature depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOnAtLeastOne_" data-uid="NServiceBus.Features.Feature.DependsOnAtLeastOne*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOnAtLeastOne_System_String___" data-uid="NServiceBus.Features.Feature.DependsOnAtLeastOne(System.String[])">DependsOnAtLeastOne(params string[])</h4>
+  <div class="markdown level1 summary"><p>Register this feature as depending on at least on of the given features. This means that this feature won't be
+activated unless at least one of the provided features in the list is active.
+This also causes this feature to be activated after the other features.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOnAtLeastOne(params string[] featureNames)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span>[]</td>
+        <td><span class="parametername">featureNames</span></td>
+        <td><p>The name of the features that this feature depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOnAtLeastOne_" data-uid="NServiceBus.Features.Feature.DependsOnAtLeastOne*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOnAtLeastOne_System_Type___" data-uid="NServiceBus.Features.Feature.DependsOnAtLeastOne(System.Type[])">DependsOnAtLeastOne(params Type[])</h4>
+  <div class="markdown level1 summary"><p>Register this feature as depending on at least on of the given features. This means that this feature won't be
+activated unless at least one of the provided features in the list is active.
+This also causes this feature to be activated after the other features.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOnAtLeastOne(params Type[] features)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">features</span></td>
+        <td><p>Features list that this feature require at least one of to be activated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOnOptionally_" data-uid="NServiceBus.Features.Feature.DependsOnOptionally*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOnOptionally_System_String_" data-uid="NServiceBus.Features.Feature.DependsOnOptionally(System.String)">DependsOnOptionally(string)</h4>
+  <div class="markdown level1 summary"><p>Registers this feature as optionally depending on the given feature. It means that the declaring feature's
+<a class="xref" href="NServiceBus.Features.Feature.html#NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_">Setup(FeatureConfigurationContext)</a> method will be called
+after the dependent feature's <a class="xref" href="NServiceBus.Features.Feature.html#NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_">Setup(FeatureConfigurationContext)</a> if that dependent feature is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOnOptionally(string featureName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">featureName</span></td>
+        <td><p>The name of the feature that this feature depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOnOptionally_" data-uid="NServiceBus.Features.Feature.DependsOnOptionally*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOnOptionally_System_Type_" data-uid="NServiceBus.Features.Feature.DependsOnOptionally(System.Type)">DependsOnOptionally(Type)</h4>
+  <div class="markdown level1 summary"><p>Registers this feature as optionally depending on the given feature. It means that the declaring feature's
+<a class="xref" href="NServiceBus.Features.Feature.html#NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_">Setup(FeatureConfigurationContext)</a> method will be called
+after the dependent feature's <a class="xref" href="NServiceBus.Features.Feature.html#NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_">Setup(FeatureConfigurationContext)</a> if that dependent feature is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOnOptionally(Type featureType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">featureType</span></td>
+        <td><p>The type of the feature that this feature depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_DependsOnOptionally_" data-uid="NServiceBus.Features.Feature.DependsOnOptionally*"></a>
+  <h4 id="NServiceBus_Features_Feature_DependsOnOptionally__1" data-uid="NServiceBus.Features.Feature.DependsOnOptionally``1">DependsOnOptionally&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Registers this feature as optionally depending on the given feature. It means that the declaring feature's
+<a class="xref" href="NServiceBus.Features.Feature.html#NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_">Setup(FeatureConfigurationContext)</a> method will be called
+after the dependent feature's <a class="xref" href="NServiceBus.Features.Feature.html#NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_">Setup(FeatureConfigurationContext)</a> if that dependent feature is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DependsOnOptionally&lt;T&gt;() where T : Feature</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the feature that this feature depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_EnableByDefault_" data-uid="NServiceBus.Features.Feature.EnableByDefault*"></a>
+  <h4 id="NServiceBus_Features_Feature_EnableByDefault" data-uid="NServiceBus.Features.Feature.EnableByDefault">EnableByDefault()</h4>
+  <div class="markdown level1 summary"><p>Marks this feature as enabled by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void EnableByDefault()</code></pre>
+  </div>
+
+
+  <a id="NServiceBus_Features_Feature_Prerequisite_" data-uid="NServiceBus.Features.Feature.Prerequisite*"></a>
+  <h4 id="NServiceBus_Features_Feature_Prerequisite_System_Func_NServiceBus_Features_FeatureConfigurationContext_System_Boolean__System_String_" data-uid="NServiceBus.Features.Feature.Prerequisite(System.Func{NServiceBus.Features.FeatureConfigurationContext,System.Boolean},System.String)">Prerequisite(Func&lt;FeatureConfigurationContext, bool&gt;, string)</h4>
+  <div class="markdown level1 summary"><p>Adds a setup prerequisite condition. If false this feature won't be setup.
+Prerequisites are only evaluated if the feature is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Prerequisite(Func&lt;FeatureConfigurationContext, bool&gt; condition, string description)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;<a class="xref" href="NServiceBus.Features.FeatureConfigurationContext.html">FeatureConfigurationContext</a>, <span class="xref">bool</span>&gt;</td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>Condition that must be met in order for this feature to be activated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Explanation of what this prerequisite checks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_Setup_" data-uid="NServiceBus.Features.Feature.Setup*"></a>
+  <h4 id="NServiceBus_Features_Feature_Setup_NServiceBus_Features_FeatureConfigurationContext_" data-uid="NServiceBus.Features.Feature.Setup(NServiceBus.Features.FeatureConfigurationContext)">Setup(FeatureConfigurationContext)</h4>
+  <div class="markdown level1 summary"><p>Called when the features is activated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void Setup(FeatureConfigurationContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Features.FeatureConfigurationContext.html">FeatureConfigurationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Features_Feature_ToString_" data-uid="NServiceBus.Features.Feature.ToString*"></a>
+  <h4 id="NServiceBus_Features_Feature_ToString" data-uid="NServiceBus.Features.Feature.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">object.ToString()</span></div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

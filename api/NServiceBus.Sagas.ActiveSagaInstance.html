@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class ActiveSagaInstance
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class ActiveSagaInstance
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.Sagas.ActiveSagaInstance">
+
+
+  <h1 id="NServiceBus_Sagas_ActiveSagaInstance" data-uid="NServiceBus.Sagas.ActiveSagaInstance" class="text-break">Class ActiveSagaInstance
+</h1>
+  <div class="markdown level0 summary"><p>Represents a saga instance being processed on the pipeline.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">ActiveSagaInstance</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a>.<a class="xref" href="NServiceBus.Sagas.html">Sagas</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_Sagas_ActiveSagaInstance_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ActiveSagaInstance</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance__ctor_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.#ctor*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance__ctor_NServiceBus_Saga_NServiceBus_Sagas_SagaMetadata_System_Func_System_DateTimeOffset__" data-uid="NServiceBus.Sagas.ActiveSagaInstance.#ctor(NServiceBus.Saga,NServiceBus.Sagas.SagaMetadata,System.Func{System.DateTimeOffset})">ActiveSagaInstance(Saga, SagaMetadata, Func&lt;DateTimeOffset&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="NServiceBus.Sagas.ActiveSagaInstance.html">ActiveSagaInstance</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActiveSagaInstance(Saga saga, SagaMetadata metadata, Func&lt;DateTimeOffset&gt; currentDateTimeOffsetProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Saga.html">Saga</a></td>
+        <td><span class="parametername">saga</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Sagas.SagaMetadata.html">SagaMetadata</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func&lt;TResult&gt;</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">currentDateTimeOffsetProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_Created_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.Created*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_Created" data-uid="NServiceBus.Sagas.ActiveSagaInstance.Created">Created</h4>
+  <div class="markdown level1 summary"><p>UTC timestamp of when the active saga instance was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset Created { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_Instance_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.Instance*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_Instance" data-uid="NServiceBus.Sagas.ActiveSagaInstance.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>The actual saga instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Saga Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Saga.html">Saga</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_IsNew_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.IsNew*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_IsNew" data-uid="NServiceBus.Sagas.ActiveSagaInstance.IsNew">IsNew</h4>
+  <div class="markdown level1 summary"><p>True if this saga was created by this incoming message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNew { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_Modified_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.Modified*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_Modified" data-uid="NServiceBus.Sagas.ActiveSagaInstance.Modified">Modified</h4>
+  <div class="markdown level1 summary"><p>UTC timestamp of when the active saga instance was last modified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset Modified { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_NotFound_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.NotFound*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_NotFound" data-uid="NServiceBus.Sagas.ActiveSagaInstance.NotFound">NotFound</h4>
+  <div class="markdown level1 summary"><p>True if no saga instance could be found for this message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NotFound { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_SagaId_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.SagaId*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_SagaId" data-uid="NServiceBus.Sagas.ActiveSagaInstance.SagaId">SagaId</h4>
+  <div class="markdown level1 summary"><p>The id of the saga.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SagaId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_Sagas_ActiveSagaInstance_AttachNewEntity_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.AttachNewEntity*"></a>
+  <h4 id="NServiceBus_Sagas_ActiveSagaInstance_AttachNewEntity_NServiceBus_IContainSagaData_" data-uid="NServiceBus.Sagas.ActiveSagaInstance.AttachNewEntity(NServiceBus.IContainSagaData)">AttachNewEntity(IContainSagaData)</h4>
+  <div class="markdown level1 summary"><p>Provides a way to update the actual saga entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AttachNewEntity(IContainSagaData sagaEntity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.IContainSagaData.html">IContainSagaData</a></td>
+        <td><span class="parametername">sagaEntity</span></td>
+        <td><p>The new entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

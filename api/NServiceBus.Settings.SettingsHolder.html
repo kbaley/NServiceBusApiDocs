@@ -1,0 +1,1072 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class SettingsHolder
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class SettingsHolder
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.Settings.SettingsHolder">
+
+
+  <h1 id="NServiceBus_Settings_SettingsHolder" data-uid="NServiceBus.Settings.SettingsHolder" class="text-break">Class SettingsHolder
+</h1>
+  <div class="markdown level0 summary"><p>Setting container.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">SettingsHolder</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NServiceBus.Settings.IReadOnlySettings.html">IReadOnlySettings</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a>.<a class="xref" href="NServiceBus.Settings.html">Settings</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_Settings_SettingsHolder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SettingsHolder : IReadOnlySettings</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder__ctor_" data-uid="NServiceBus.Settings.SettingsHolder.#ctor*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder__ctor" data-uid="NServiceBus.Settings.SettingsHolder.#ctor">SettingsHolder()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SettingsHolder()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Clear_" data-uid="NServiceBus.Settings.SettingsHolder.Clear*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Clear" data-uid="NServiceBus.Settings.SettingsHolder.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clears the settings holder default values and overrides, if a value is disposable the dispose method will be called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Get_" data-uid="NServiceBus.Settings.SettingsHolder.Get*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Get_System_String_" data-uid="NServiceBus.Settings.SettingsHolder.Get(System.String)">Get(string)</h4>
+  <div class="markdown level1 summary"><p>Gets the given value by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Get(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Get_" data-uid="NServiceBus.Settings.SettingsHolder.Get*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Get__1" data-uid="NServiceBus.Settings.SettingsHolder.Get``1">Get&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the given value, key is type fullname.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Get&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The value if found, throws if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Get_" data-uid="NServiceBus.Settings.SettingsHolder.Get*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Get__1_System_String_" data-uid="NServiceBus.Settings.SettingsHolder.Get``1(System.String)">Get&lt;T&gt;(string)</h4>
+  <div class="markdown level1 summary"><p>Gets the given setting by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Get&lt;T&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_GetOrCreate_" data-uid="NServiceBus.Settings.SettingsHolder.GetOrCreate*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_GetOrCreate__1" data-uid="NServiceBus.Settings.SettingsHolder.GetOrCreate``1">GetOrCreate&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the requested value, a new one will be created and added if needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetOrCreate&lt;T&gt;() where T : class, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_GetOrDefault_" data-uid="NServiceBus.Settings.SettingsHolder.GetOrDefault*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_GetOrDefault__1" data-uid="NServiceBus.Settings.SettingsHolder.GetOrDefault``1">GetOrDefault&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the setting or default based on the typename.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetOrDefault&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The actual value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The setting to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_GetOrDefault_" data-uid="NServiceBus.Settings.SettingsHolder.GetOrDefault*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_GetOrDefault__1_System_String_" data-uid="NServiceBus.Settings.SettingsHolder.GetOrDefault``1(System.String)">GetOrDefault&lt;T&gt;(string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value or its default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetOrDefault&lt;T&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_HasExplicitValue_" data-uid="NServiceBus.Settings.SettingsHolder.HasExplicitValue*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_HasExplicitValue_System_String_" data-uid="NServiceBus.Settings.SettingsHolder.HasExplicitValue(System.String)">HasExplicitValue(string)</h4>
+  <div class="markdown level1 summary"><p>True if there is an explicit value for the given key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExplicitValue(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The Key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_HasExplicitValue_" data-uid="NServiceBus.Settings.SettingsHolder.HasExplicitValue*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_HasExplicitValue__1" data-uid="NServiceBus.Settings.SettingsHolder.HasExplicitValue``1">HasExplicitValue&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>True if there is an explicit value for the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExplicitValue&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_HasSetting_" data-uid="NServiceBus.Settings.SettingsHolder.HasSetting*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_HasSetting_System_String_" data-uid="NServiceBus.Settings.SettingsHolder.HasSetting(System.String)">HasSetting(string)</h4>
+  <div class="markdown level1 summary"><p>True if there is a default or explicit value for the given key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSetting(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The Key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_HasSetting_" data-uid="NServiceBus.Settings.SettingsHolder.HasSetting*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_HasSetting__1" data-uid="NServiceBus.Settings.SettingsHolder.HasSetting``1">HasSetting&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>True if there is a setting for the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSetting&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Set_" data-uid="NServiceBus.Settings.SettingsHolder.Set*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Set_System_String_System_Object_" data-uid="NServiceBus.Settings.SettingsHolder.Set(System.String,System.Object)">Set(string, object)</h4>
+  <div class="markdown level1 summary"><p>Sets the setting value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(string key, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to use to store the setting.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The setting value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Set_" data-uid="NServiceBus.Settings.SettingsHolder.Set*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Set__1___0_" data-uid="NServiceBus.Settings.SettingsHolder.Set``1(``0)">Set&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Sets the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The setting value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to use as a key for storing the setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_Set_" data-uid="NServiceBus.Settings.SettingsHolder.Set*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_Set__1_System_Action_" data-uid="NServiceBus.Settings.SettingsHolder.Set``1(System.Action)">Set&lt;T&gt;(Action)</h4>
+  <div class="markdown level1 summary"><p>Sets the given value, key is type fullname.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set&lt;T&gt;(Action value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Action to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_SetDefault_" data-uid="NServiceBus.Settings.SettingsHolder.SetDefault*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_SetDefault_System_String_System_Object_" data-uid="NServiceBus.Settings.SettingsHolder.SetDefault(System.String,System.Object)">SetDefault(string, object)</h4>
+  <div class="markdown level1 summary"><p>Set the default value for the given key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefault(string key, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_SetDefault_" data-uid="NServiceBus.Settings.SettingsHolder.SetDefault*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_SetDefault__1___0_" data-uid="NServiceBus.Settings.SettingsHolder.SetDefault``1(``0)">SetDefault&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Sets the default setting value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefault&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The setting value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to use as a key for storing the setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_SetDefault_" data-uid="NServiceBus.Settings.SettingsHolder.SetDefault*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_SetDefault__1_System_Action_" data-uid="NServiceBus.Settings.SettingsHolder.SetDefault``1(System.Action)">SetDefault&lt;T&gt;(Action)</h4>
+  <div class="markdown level1 summary"><p>Sets the default value for the given setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefault&lt;T&gt;(Action value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to store as default.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_TryGet_" data-uid="NServiceBus.Settings.SettingsHolder.TryGet*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_TryGet__1___0__" data-uid="NServiceBus.Settings.SettingsHolder.TryGet``1(``0@)">TryGet&lt;T&gt;(out T)</h4>
+  <div class="markdown level1 summary"><p>Tries to get the given value, key is the type fullname.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGet&lt;T&gt;(out T val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">val</span></td>
+        <td><p>The returned value if present.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_Settings_SettingsHolder_TryGet_" data-uid="NServiceBus.Settings.SettingsHolder.TryGet*"></a>
+  <h4 id="NServiceBus_Settings_SettingsHolder_TryGet__1_System_String___0__" data-uid="NServiceBus.Settings.SettingsHolder.TryGet``1(System.String,``0@)">TryGet&lt;T&gt;(string, out T)</h4>
+  <div class="markdown level1 summary"><p>Tries to get the given value by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGet&lt;T&gt;(string key, out T val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">val</span></td>
+        <td><p>Value if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if key is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NServiceBus.Settings.IReadOnlySettings.html">IReadOnlySettings</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NServiceBus.AuditConfigReader.html#NServiceBus_AuditConfigReader_TryGetAuditMessageExpiration_NServiceBus_Settings_IReadOnlySettings_System_TimeSpan__">AuditConfigReader.TryGetAuditMessageExpiration(IReadOnlySettings, out TimeSpan)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.AuditConfigReader.html#NServiceBus_AuditConfigReader_TryGetAuditQueueAddress_NServiceBus_Settings_IReadOnlySettings_System_String__">AuditConfigReader.TryGetAuditQueueAddress(IReadOnlySettings, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ConsistencyGuarantees.TransactionModeSettingsExtensions.html#NServiceBus_ConsistencyGuarantees_TransactionModeSettingsExtensions_GetRequiredTransactionModeForReceives_NServiceBus_Settings_IReadOnlySettings_">TransactionModeSettingsExtensions.GetRequiredTransactionModeForReceives(IReadOnlySettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.DiagnosticSettingsExtensions.html#NServiceBus_DiagnosticSettingsExtensions_AddStartupDiagnosticsSection_NServiceBus_Settings_IReadOnlySettings_System_String_System_Object_">DiagnosticSettingsExtensions.AddStartupDiagnosticsSection(IReadOnlySettings, string, object)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ErrorQueueSettings.html#NServiceBus_ErrorQueueSettings_ErrorQueueAddress_NServiceBus_Settings_IReadOnlySettings_">ErrorQueueSettings.ErrorQueueAddress(IReadOnlySettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.ErrorQueueSettings.html#NServiceBus_ErrorQueueSettings_TryGetExplicitlyConfiguredErrorQueueAddress_NServiceBus_Settings_IReadOnlySettings_System_String__">ErrorQueueSettings.TryGetExplicitlyConfiguredErrorQueueAddress(IReadOnlySettings, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.Features.SettingsExtensions.html#NServiceBus_Features_SettingsExtensions_IsFeatureActive_NServiceBus_Settings_IReadOnlySettings_System_Type_">SettingsExtensions.IsFeatureActive(IReadOnlySettings, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.Features.SettingsExtensions.html#NServiceBus_Features_SettingsExtensions_IsFeatureEnabled_NServiceBus_Settings_IReadOnlySettings_System_Type_">SettingsExtensions.IsFeatureEnabled(IReadOnlySettings, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SettingsExtensions.html#NServiceBus_SettingsExtensions_EndpointName_NServiceBus_Settings_IReadOnlySettings_">SettingsExtensions.EndpointName(IReadOnlySettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SettingsExtensions.html#NServiceBus_SettingsExtensions_EndpointQueueName_NServiceBus_Settings_IReadOnlySettings_">SettingsExtensions.EndpointQueueName(IReadOnlySettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.SettingsExtensions.html#NServiceBus_SettingsExtensions_GetAvailableTypes_NServiceBus_Settings_IReadOnlySettings_">SettingsExtensions.GetAvailableTypes(IReadOnlySettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.Features.SettingsExtensions.html#NServiceBus_Features_SettingsExtensions_EnableFeatureByDefault_NServiceBus_Settings_SettingsHolder_System_Type_">SettingsExtensions.EnableFeatureByDefault(SettingsHolder, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.Features.SettingsExtensions.html#NServiceBus_Features_SettingsExtensions_EnableFeatureByDefault__1_NServiceBus_Settings_SettingsHolder_">SettingsExtensions.EnableFeatureByDefault&lt;T&gt;(SettingsHolder)</a>
+  </div>
+  <div>
+      <a class="xref" href="NServiceBus.RecoverabilitySettingsExtensions.html#NServiceBus_RecoverabilitySettingsExtensions_AddUnrecoverableException_NServiceBus_Settings_SettingsHolder_System_Type_">RecoverabilitySettingsExtensions.AddUnrecoverableException(SettingsHolder, Type)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

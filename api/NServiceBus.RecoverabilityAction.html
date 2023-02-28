@@ -1,0 +1,404 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class RecoverabilityAction
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class RecoverabilityAction
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.RecoverabilityAction">
+
+
+  <h1 id="NServiceBus_RecoverabilityAction" data-uid="NServiceBus.RecoverabilityAction" class="text-break">Class RecoverabilityAction
+</h1>
+  <div class="markdown level0 summary"><p>Abstraction representing any recoverability action.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">RecoverabilityAction</span></div>
+      <div class="level2"><a class="xref" href="NServiceBus.DelayedRetry.html">DelayedRetry</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.Discard.html">Discard</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.ImmediateRetry.html">ImmediateRetry</a></div>
+      <div class="level2"><a class="xref" href="NServiceBus.MoveToError.html">MoveToError</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_RecoverabilityAction_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class RecoverabilityAction</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="NServiceBus_RecoverabilityAction__ctor_" data-uid="NServiceBus.RecoverabilityAction.#ctor*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction__ctor" data-uid="NServiceBus.RecoverabilityAction.#ctor">RecoverabilityAction()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of a recoverability action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected RecoverabilityAction()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="NServiceBus_RecoverabilityAction_ErrorHandleResult_" data-uid="NServiceBus.RecoverabilityAction.ErrorHandleResult*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction_ErrorHandleResult" data-uid="NServiceBus.RecoverabilityAction.ErrorHandleResult">ErrorHandleResult</h4>
+  <div class="markdown level1 summary"><p>The ErrorHandleResult that should be passed to the transport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ErrorHandleResult ErrorHandleResult { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Transport.ErrorHandleResult.html">ErrorHandleResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_RecoverabilityAction_DelayedRetry_" data-uid="NServiceBus.RecoverabilityAction.DelayedRetry*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction_DelayedRetry_System_TimeSpan_" data-uid="NServiceBus.RecoverabilityAction.DelayedRetry(System.TimeSpan)">DelayedRetry(TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Specifies that messages matching this recoverability policy will be retried with a specified delay.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DelayedRetry DelayedRetry(TimeSpan timeSpan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeSpan</span></td>
+        <td><p>Delivery delay.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.DelayedRetry.html">DelayedRetry</a></td>
+        <td><p>Delayed retry action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RecoverabilityAction_Discard_" data-uid="NServiceBus.RecoverabilityAction.Discard*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction_Discard_System_String_" data-uid="NServiceBus.RecoverabilityAction.Discard(System.String)">Discard(string)</h4>
+  <div class="markdown level1 summary"><p>Specifies that messages matching this recoverability policy will be discarded as if they had never happened.
+The message will not be forwarded to the audit queue, which may be confusing when viewing audit data as
+the conversation will abruptly end without any information about the reason.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Discard Discard(string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason why the message was discarded. This reason is communicated only in logs and is not transmitted
+through audit messages to the audit queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Discard.html">Discard</a></td>
+        <td><p>Discard action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RecoverabilityAction_GetRoutingContexts_" data-uid="NServiceBus.RecoverabilityAction.GetRoutingContexts*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction_GetRoutingContexts_NServiceBus_Pipeline_IRecoverabilityActionContext_" data-uid="NServiceBus.RecoverabilityAction.GetRoutingContexts(NServiceBus.Pipeline.IRecoverabilityActionContext)">GetRoutingContexts(IRecoverabilityActionContext)</h4>
+  <div class="markdown level1 summary"><p>Returns the routing contexts derived from the provided recoverability context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IReadOnlyCollection&lt;IRoutingContext&gt; GetRoutingContexts(IRecoverabilityActionContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.Pipeline.IRecoverabilityActionContext.html">IRecoverabilityActionContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>&lt;<a class="xref" href="NServiceBus.Pipeline.IRoutingContext.html">IRoutingContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RecoverabilityAction_ImmediateRetry_" data-uid="NServiceBus.RecoverabilityAction.ImmediateRetry*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction_ImmediateRetry" data-uid="NServiceBus.RecoverabilityAction.ImmediateRetry">ImmediateRetry()</h4>
+  <div class="markdown level1 summary"><p>Specifies that messages matching this recoverability policy will be retried immediately.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ImmediateRetry ImmediateRetry()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ImmediateRetry.html">ImmediateRetry</a></td>
+        <td><p>Immediate retry action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RecoverabilityAction_MoveToError_" data-uid="NServiceBus.RecoverabilityAction.MoveToError*"></a>
+  <h4 id="NServiceBus_RecoverabilityAction_MoveToError_System_String_" data-uid="NServiceBus.RecoverabilityAction.MoveToError(System.String)">MoveToError(string)</h4>
+  <div class="markdown level1 summary"><p>Specifies that messages matching this recoverability policy will not be retried and will be routed to the error queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MoveToError MoveToError(string errorQueue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">errorQueue</span></td>
+        <td><p>The address of the error queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.MoveToError.html">MoveToError</a></td>
+        <td><p>Move to error action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

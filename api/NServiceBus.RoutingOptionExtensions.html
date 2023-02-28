@@ -1,0 +1,992 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class RoutingOptionExtensions
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class RoutingOptionExtensions
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NServiceBus.RoutingOptionExtensions">
+
+
+  <h1 id="NServiceBus_RoutingOptionExtensions" data-uid="NServiceBus.RoutingOptionExtensions" class="text-break">Class RoutingOptionExtensions
+</h1>
+  <div class="markdown level0 summary"><p>Gives users fine grained control over routing via extension methods.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">RoutingOptionExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NServiceBus.html">NServiceBus</a></h6>
+  <h6><strong>Assembly</strong>: NServiceBus.Core.dll</h6>
+  <h5 id="NServiceBus_RoutingOptionExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class RoutingOptionExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_GetDestination_" data-uid="NServiceBus.RoutingOptionExtensions.GetDestination*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_GetDestination_NServiceBus_ReplyOptions_" data-uid="NServiceBus.RoutingOptionExtensions.GetDestination(NServiceBus.ReplyOptions)">GetDestination(ReplyOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns the destination configured by <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_SetDestination_NServiceBus_ReplyOptions_System_String_">SetDestination(ReplyOptions, string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetDestination(this ReplyOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The specified destination address or <code>null</code> when no destination was specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_GetDestination_" data-uid="NServiceBus.RoutingOptionExtensions.GetDestination*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_GetDestination_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.GetDestination(NServiceBus.SendOptions)">GetDestination(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns the destination configured by <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_SetDestination_NServiceBus_SendOptions_System_String_">SetDestination(SendOptions, string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetDestination(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The specified destination address or <code>null</code> when no destination was specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_GetReplyToRoute_" data-uid="NServiceBus.RoutingOptionExtensions.GetReplyToRoute*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_GetReplyToRoute_NServiceBus_ReplyOptions_" data-uid="NServiceBus.RoutingOptionExtensions.GetReplyToRoute(NServiceBus.ReplyOptions)">GetReplyToRoute(ReplyOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns the configured route by <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteReplyTo_NServiceBus_ReplyOptions_System_String_">RouteReplyTo(ReplyOptions, string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetReplyToRoute(this ReplyOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The configured reply to address or <code>null</code> when no address configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_GetReplyToRoute_" data-uid="NServiceBus.RoutingOptionExtensions.GetReplyToRoute*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_GetReplyToRoute_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.GetReplyToRoute(NServiceBus.SendOptions)">GetReplyToRoute(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns the configured route by <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteReplyTo_NServiceBus_SendOptions_System_String_">RouteReplyTo(SendOptions, string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetReplyToRoute(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The configured reply to address or <code>null</code> when no address configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_GetRouteToSpecificInstance_" data-uid="NServiceBus.RoutingOptionExtensions.GetRouteToSpecificInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_GetRouteToSpecificInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.GetRouteToSpecificInstance(NServiceBus.SendOptions)">GetRouteToSpecificInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns the instance configured by <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteToSpecificInstance_NServiceBus_SendOptions_System_String_">RouteToSpecificInstance(SendOptions, string)</a> where the message should be routed to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetRouteToSpecificInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The configured instance ID or <code>null</code> when no instance was configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToAnyInstance_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToAnyInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToAnyInstance_NServiceBus_ReplyOptions_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToAnyInstance(NServiceBus.ReplyOptions)">IsRoutingReplyToAnyInstance(ReplyOptions)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteReplyToAnyInstance_NServiceBus_ReplyOptions_">RouteReplyToAnyInstance(ReplyOptions)</a> has been called on this options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRoutingReplyToAnyInstance(this ReplyOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToAnyInstance_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToAnyInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToAnyInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToAnyInstance(NServiceBus.SendOptions)">IsRoutingReplyToAnyInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteReplyToAnyInstance_NServiceBus_SendOptions_">RouteReplyToAnyInstance(SendOptions)</a> has been called on this options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRoutingReplyToAnyInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToThisInstance_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToThisInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToThisInstance_NServiceBus_ReplyOptions_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToThisInstance(NServiceBus.ReplyOptions)">IsRoutingReplyToThisInstance(ReplyOptions)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteReplyToThisInstance_NServiceBus_ReplyOptions_">RouteReplyToThisInstance(ReplyOptions)</a> has been called on this options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRoutingReplyToThisInstance(this ReplyOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToThisInstance_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToThisInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_IsRoutingReplyToThisInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingReplyToThisInstance(NServiceBus.SendOptions)">IsRoutingReplyToThisInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteReplyToThisInstance_NServiceBus_SendOptions_">RouteReplyToThisInstance(SendOptions)</a> has been called on this options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRoutingReplyToThisInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_IsRoutingToThisEndpoint_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingToThisEndpoint*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_IsRoutingToThisEndpoint_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingToThisEndpoint(NServiceBus.SendOptions)">IsRoutingToThisEndpoint(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns whether the message should be routed to this endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRoutingToThisEndpoint(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p><code>true</code> when <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_RouteToThisEndpoint_NServiceBus_SendOptions_">RouteToThisEndpoint(SendOptions)</a> has been called, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_IsRoutingToThisInstance_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingToThisInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_IsRoutingToThisInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.IsRoutingToThisInstance(NServiceBus.SendOptions)">IsRoutingToThisInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Returns whether the message should be routed to this endpoint instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRoutingToThisInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p><code>true</code> when <a class="xref" href="NServiceBus.RoutingOptionExtensions.html#NServiceBus_RoutingOptionExtensions_IsRoutingToThisInstance_NServiceBus_SendOptions_">IsRoutingToThisInstance(SendOptions)</a> has been called, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteReplyTo_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyTo*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteReplyTo_NServiceBus_ReplyOptions_System_String_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyTo(NServiceBus.ReplyOptions,System.String)">RouteReplyTo(ReplyOptions, string)</h4>
+  <div class="markdown level1 summary"><p>Instructs the receiver to route the reply to specified address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteReplyTo(this ReplyOptions options, string address)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">address</span></td>
+        <td><p>Reply destination.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteReplyTo_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyTo*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteReplyTo_NServiceBus_SendOptions_System_String_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyTo(NServiceBus.SendOptions,System.String)">RouteReplyTo(SendOptions, string)</h4>
+  <div class="markdown level1 summary"><p>Instructs the receiver to route the reply to specified address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteReplyTo(this SendOptions options, string address)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">address</span></td>
+        <td><p>Reply destination.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteReplyToAnyInstance_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToAnyInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteReplyToAnyInstance_NServiceBus_ReplyOptions_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToAnyInstance(NServiceBus.ReplyOptions)">RouteReplyToAnyInstance(ReplyOptions)</h4>
+  <div class="markdown level1 summary"><p>Instructs the receiver to route the reply for this message to any instance of this endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteReplyToAnyInstance(this ReplyOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteReplyToAnyInstance_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToAnyInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteReplyToAnyInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToAnyInstance(NServiceBus.SendOptions)">RouteReplyToAnyInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Instructs the receiver to route the reply for this message to any instance of this endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteReplyToAnyInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteReplyToThisInstance_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToThisInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteReplyToThisInstance_NServiceBus_ReplyOptions_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToThisInstance(NServiceBus.ReplyOptions)">RouteReplyToThisInstance(ReplyOptions)</h4>
+  <div class="markdown level1 summary"><p>Instructs the receiver to route the reply for this message to this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteReplyToThisInstance(this ReplyOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteReplyToThisInstance_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToThisInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteReplyToThisInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.RouteReplyToThisInstance(NServiceBus.SendOptions)">RouteReplyToThisInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Instructs the receiver to route the reply for this message to this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteReplyToThisInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteToSpecificInstance_" data-uid="NServiceBus.RoutingOptionExtensions.RouteToSpecificInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteToSpecificInstance_NServiceBus_SendOptions_System_String_" data-uid="NServiceBus.RoutingOptionExtensions.RouteToSpecificInstance(NServiceBus.SendOptions,System.String)">RouteToSpecificInstance(SendOptions, string)</h4>
+  <div class="markdown level1 summary"><p>Routes this message to a specific instance of a destination endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteToSpecificInstance(this SendOptions options, string instanceId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td><p>ID of destination instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteToThisEndpoint_" data-uid="NServiceBus.RoutingOptionExtensions.RouteToThisEndpoint*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteToThisEndpoint_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.RouteToThisEndpoint(NServiceBus.SendOptions)">RouteToThisEndpoint(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Routes this message to any instance of this endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteToThisEndpoint(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_RouteToThisInstance_" data-uid="NServiceBus.RoutingOptionExtensions.RouteToThisInstance*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_RouteToThisInstance_NServiceBus_SendOptions_" data-uid="NServiceBus.RoutingOptionExtensions.RouteToThisInstance(NServiceBus.SendOptions)">RouteToThisInstance(SendOptions)</h4>
+  <div class="markdown level1 summary"><p>Routes this message to this endpoint instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RouteToThisInstance(this SendOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_SetDestination_" data-uid="NServiceBus.RoutingOptionExtensions.SetDestination*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_SetDestination_NServiceBus_ReplyOptions_System_String_" data-uid="NServiceBus.RoutingOptionExtensions.SetDestination(NServiceBus.ReplyOptions,System.String)">SetDestination(ReplyOptions, string)</h4>
+  <div class="markdown level1 summary"><p>Allows the target endpoint instance for this reply to set. If not used the reply will be sent to the <code>ReplyToAddress</code>
+of the incoming message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDestination(this ReplyOptions options, string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.ReplyOptions.html">ReplyOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>The new target address.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="NServiceBus_RoutingOptionExtensions_SetDestination_" data-uid="NServiceBus.RoutingOptionExtensions.SetDestination*"></a>
+  <h4 id="NServiceBus_RoutingOptionExtensions_SetDestination_NServiceBus_SendOptions_System_String_" data-uid="NServiceBus.RoutingOptionExtensions.SetDestination(NServiceBus.SendOptions,System.String)">SetDestination(SendOptions, string)</h4>
+  <div class="markdown level1 summary"><p>Allows a specific physical address to be used to route this message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDestination(this SendOptions options, string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NServiceBus.SendOptions.html">SendOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option being extended.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>The destination address.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
